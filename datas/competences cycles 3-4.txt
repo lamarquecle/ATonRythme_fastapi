@@ -1,0 +1,453 @@
+cycle 3
+    Nombres et calculs
+        Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux
+                Connaissances
+                    Connaître les unités de la numération décimale pour les nombres entiers (unités simples, dizaines, centaines, milliers, millions, milliards) et les relations qui les lient.
+                    Comprendre les règles de la numération décimale de position aux grands nombres entiers (jusqu’à 12 chiffres).
+                    Connaître diverses désignations des fractions : orales, écrites et décompositions additives et multiplicatives (ex : quatre tiers ; 4/3 ; 1/3 + 1/3 + 1/3 + 1/3 ; 1 + 1/3 ; 4 x 1/3)
+                    Connaître et utiliser quelques fractions simples comme opérateur de partage en faisant le lien entre les formulations en langage courant et leur écriture mathématique (ex : faire le lien entre « la moitié de » et multiplier par 1/2).
+                    Connaître des égalités entre des fractions usuelles (exemples : 5/10 = 1/2 ; 10/100 = 1/10 ; 2/4 = 1/2) 
+                    Connaître les unités de la numération décimale (unités simples, dixièmes, centièmes, millièmes) et les relations qui les lient.
+                    Connaître et utiliser diverses désignations orales et écrites d’un nombre décimal (fractions décimales, écritures à virgule, décompositions additives et multiplicatives).
+                Compétences associées
+                    Appliquer les règles de la numération décimale de position aux grands nombres entiers (jusqu’à 12 chiffres).
+                    Composer les grands nombres entiers, en utilisant des regroupements par milliers, 
+                    Décomposer les grands nombres entiers, en utilisant des regroupements par milliers.
+                    Comparer, ranger, encadrer des grands nombres entiers.
+                    Placer des grands nombres entiers sur une demi-droite graduée adaptée.
+                    Utiliser des fractions pour rendre compte de partages de grandeurs ou de mesures de grandeurs. 
+                    Repérer et placer des fractions sur une demi-droite graduée adaptée.
+                    Encadrer une fraction par deux nombres entiers consécutifs. 
+                    Comparer deux fractions de même dénominateur.
+                    Écrire une fraction sous forme de somme d’un entier et d’une fraction inférieure à 1.
+                    Utiliser des fractions pour exprimer un quotient.
+                    Appliquer aux nombres décimaux les règles de la numération décimale de position (valeurs des chiffres en fonction de leur rang).
+                    Comprendre les règles de la numération décimale de position (valeurs des chiffres en fonction de leur rang).
+        Utiliser les nombres décimaux pour rendre compte de mesures de grandeurs.
+                Connaissances
+                    Connaître le lien entre les unités de numération et les unités de mesure (par exemple : dixième à dm/dg/dL, centième à cm/cg/cL/centimes d’euro).
+                Compétences associées
+                    Repérer et placer un nombre décimal sur une demi-droite graduée adaptée. 
+                    Comparer, ranger des nombres décimaux.
+                    Encadrer un nombre décimal par deux nombres entiers, par deux nombres décimaux.
+                    Trouver des nombres décimaux à intercaler entre deux nombres donnés.
+        Calculer avec des nombres entiers et des nombres décimaux
+            Calcul mental ou en ligne
+                Connaissances
+                    Connaître des procédures élémentaires de calcul, notamment : multiplier ou diviser un nombre décimal par 10, par 100, par 1000 ;
+                    Connaître des procédures élémentaires de calcul, notamment : rechercher le complément à l’entier supérieur ;
+                    Connaître des procédures élémentaires de calcul, notamment : multiplier par 5, par 25, par 50, par 0,1, par 0,5.
+                    Connaître des propriétés de l’addition, de la soustraction et de la multiplication, et notamment : 12 + 199 = 199 + 12 ; 5 x 21 = 21 x 5 ; 27,9 + 1,2 + 0,8 = 27,9 + 2 ; 3,2 × 25 × 4 = 3,2 × 100 ; 45 × 21 = 45 × 20 + 45 ; 6 × 18 = 6 × 20 - 6 × 2 ; 23 × 7 + 23 × 3 = 23 × 10.
+                    Connaître les critères de divisibilité par 2, 3, 5, 9 et 10.
+                Compétences associées
+                    Mobiliser les faits numériques mémorisés au cycle 2, notamment les tables de multiplication jusqu’à 9. Connaître les multiples de 25 et de 50, les diviseurs de 100.
+                    Elaborer et mettre en œuvre des stratégies de calcul avec les procédures de calculs.
+                    Vérifier la vraisemblance d’un résultat, notamment en estimant un ordre de grandeur.
+                    Dans un calcul en ligne, utiliser des parenthèses pour indiquer ou respecter une chronologie dans les calculs.
+            Calcul posé
+                Connaissances
+                    Connaître l'algorithme de calcul posé pour effectuer : l’addition, la soustraction et la multiplication de nombres entiers ou décimaux ;
+                    Connaître l'algorithme de calcul posé pour effectuer : la division euclidienne d’un entier par un entier ;
+                    Connaître l'algorithme de calcul posé pour effectuer : la division d’un nombre décimal (entier ou non) par un nombre entier.
+                Compétences associées
+                    Mettre en œuvre un algorithme de calcul posé pour effectuer : l’addition, la soustraction et la multiplication de nombres entiers ou décimaux ;
+                    Mettre en œuvre un algorithme de calcul posé pour effectuer : la division euclidienne d’un entier par un entier ;
+                    Mettre en œuvre un algorithme de calcul posé pour effectuer : la division d’un nombre décimal (entier ou non) par un nombre entier.
+            Calcul instrumenté
+                Connaissances
+                Compétences associées
+                    Utiliser une calculatrice pour trouver ou vérifier un résultat.
+    Résoudre des problèmes en utilisant des fractions, des nombres décimaux et le calcul
+                Connaissances
+                Compétences associées
+                    Résoudre des problèmes mettant en jeu les quatre opérations : Sens des opérations.
+                    Résoudre des problèmes mettant en jeu les quatre opérations : Problèmes à une ou plusieurs étapes relevant des structures additive et/ou multiplicative.
+            Organisation et gestion de données
+                Connaissances
+                Compétences associées
+                    Prélever des données numériques à partir de supports variés.
+                    Lire ou construire des représentations de données : tableaux (en deux ou plusieurs colonnes, à double entrée) ;
+                    Lire ou construire des représentations de données : diagrammes en bâtons, circulaires ou semi-circulaires ;
+                    Lire ou construire des représentations de données : graphiques cartésiens.
+                    Organiser des données issues d’autres enseignements (sciences et technologie, histoire et géographie, éducation physique et sportive, etc.) en vue de les traiter.
+            Proportionnalité
+                Connaissances
+                Compétences associées
+                    Reconnaître et résoudre des problèmes relevant de la proportionnalité en utilisant une procédure adaptée : propriétés de linéarité (additive et multiplicative), passage à l’unité, coefficient de proportionnalité.
+                    Appliquer un pourcentage.
+    Grandeurs et mesures
+        Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs
+            Longueur et périmètre
+                Connaissances
+                Compétences associées
+                    Comparer des périmètres avec ou sans recours à la mesure (par exemple en utilisant une ficelle, ou en reportant les longueurs des côtés d’un polygone sur un segment de droite avec un compas).
+                    Notion de longueur : cas particulier du périmètre.
+                    Unités relatives aux longueurs : relations entre les unités de longueur et les unités de numération.
+                    Calculer le périmètre d’un polygone en ajoutant les longueurs de ses côtés.
+                    Calculer le périmètre d’un carré et d’un rectangle : Formule du périmètre d’un carré, d’un rectangle.
+                    Calculer le périmètre d’un carré et d’un rectangle : Formule de la longueur d’un cercle.
+            Aires
+                Connaissances
+                Compétences associées
+                    Comparer des surfaces selon leurs aires sans avoir recours à la mesure, par superposition ou par découpage et recollement.
+                    Différencier périmètre et aire d’une figure.
+                    Estimer la mesure d’une aire et l’exprimer dans une unité adaptée.
+                    Convertir les multiples et sous-multiples du m².
+                    Déterminer la mesure de l’aire d’une surface à partir d’un pavage simple ou en utilisant une formule : Formules de l’aire d’un carré, d’un rectangle, d’un triangle, d’un disque.
+            Volumes et contenances
+                Connaissances
+                Compétences associées
+                    Relier les unités de volume (cm3, dm3, m3) et de contenance (mL, dL, L, kL).
+                    Estimer la mesure d’un volume ou d’une contenance par différentes procédures (transvasements, appréciation de l’ordre de grandeur) et l’exprimer dans une unité adaptée.
+                    Déterminer le volume d’un pavé droit en se rapportant à un dénombrement d’unités (cubes de taille adaptée) 
+                    Déterminer le volume d’un pavé droit en utilisant une formule.
+                    Formules du volume d’un cube, d’un pavé droit.
+            Angles
+                Connaissances
+                    Notion d’angle.
+                    Lexique associé aux angles : angle droit, aigu, obtus.
+                Compétences associées
+                    Mesure en degré d’un angle.
+                    Identifier des angles dans une figure géométrique.
+                    Comparer des angles, en ayant ou non recours à leur mesure (par superposition, avec un calque). 
+                    Reproduire un angle donné en utilisant un gabarit.
+                    Estimer qu’un angle est droit, aigu ou obtus.
+                    Utiliser l’équerre pour vérifier qu’un angle est droit, aigu ou obtus, ou pour construire un angle droit.
+                    Utiliser le rapporteur pour déterminer la mesure en degré d’un angle ;
+                    Utiliser le rapporteur pour construire un angle de mesure donnée en degrés.
+        Résoudre des problèmes impliquant des grandeurs (géométriques, physiques, économiques) en utilisant des nombres entiers et des nombres décimaux
+                Connaissances
+                Compétences associées
+                    Résoudre des problèmes de comparaison avec et sans recours à la mesure.
+                    Résoudre des problèmes dont la résolution mobilise simultanément des unités différentes de mesure et/ou des conversions.
+                    Formules ou non pour : le périmètre d’un carré, d’un rectangle, la longueur d’un cercle ;
+                    Formules ou non pour : l’aire d’un carré, d’un rectangle, d’un triangle, d’un disque ;
+                    Formules ou non pour : le volume d’un cube, d’un pavé droit
+                    Calculer la durée écoulée entre deux instants donnés.
+                    Déterminer à un instant : jour, semaine, heure, minute, seconde, dixième de seconde, mois, année, siècle, millénaire.
+                    Déterminer le temps d'un instant : jour, semaine, heure, minute, seconde, dixième de seconde, mois, année, siècle, millénaire.
+            Proportionnalité
+                Connaissances
+                Compétences associées
+                    Identifier une situation de proportionnalité entre deux grandeurs à partir du sens de la situation. 
+                    Résoudre un problème de proportionnalité impliquant des grandeurs.
+
+    Espace et géométrie
+        (Se) repérer et (se) déplacer dans l’espace en utilisant ou en élaborant des représentations
+                Connaissances
+                    vocabulaire permettant de définir des positions et des déplacements (tourner à gauche, à droite ; faire demi-tour, effectuer un quart de tour à droite, à gauche) ;
+                Compétences associées
+                    Se repérer, décrire ou exécuter des déplacements, sur un plan ou sur une carte (école, quartier, ville, village).
+                    Accomplir, décrire, coder des déplacements dans des espaces familiers.
+                    Programmer les déplacements d’un robot ou ceux d’un personnage sur un écran en utilisant un logiciel de programmation.
+                    Accomplir, se repérer avec divers modes de représentation de l’espace : maquettes, plans, schémas.
+        Reconnaître, nommer, décrire, reproduire, représenter, construire quelques solides et figures géométriques
+                Connaissances
+                Compétences associées
+                    Reconnaître, nommer des figures simples : triangles, dont les triangles particuliers (triangle rectangle, triangle isocèle, triangle équilatéral);
+                    Reconnaître, nommer des figures simples : quadrilatères, dont les quadrilatères particuliers (carré, rectangle, losange, première approche du parallélogramme) ;
+                    Reconnaître, nommer des figures simples : cercle (comme ensemble des points situés à une distance donnée d’un point donné),disque.
+                    Reconnaître, nommer des figures complexes (assemblages de figures simples) : cube, pavé droit, prisme droit, pyramide, cylindre, cône, boule.
+                    Décrire des figures simples : côté, sommet, angle, diagonale, polygone, centre, rayon, diamètre, milieu, hauteur solide, face, arête.
+                    Décrire des figures complexes : côté, sommet, angle, diagonale, polygone, centre, rayon, diamètre, milieu, hauteur solide, face, arête.
+                    Reproduire, représenter, construire : des figures simples ou complexes (assemblages de figures simples) sous forme de maquettes ou de dessins ou à partir d’un patron (donné, dans le cas d’un prisme ou d’une pyramide, ou à construire dans le cas d’un pavé droit).
+                    Réaliser un programme de construction d’une figure plane.
+                    Compléter un programme de construction d’une figure plane.
+                    Rédiger un programme de construction d’une figure plane.
+                    Réaliser une figure plane simple à l’aide d’un logiciel de géométrie dynamique.
+                    Réaliser une figure composée de figures simples à l’aide d’un logiciel de géométrie dynamique.
+        Reconnaître et utiliser quelques relations géométriques
+            Relations de perpendicularité et de parallélisme
+                Connaissances
+                    Savoir : Alignement, appartenance.
+                    Savoir : Segment de droite.
+                    Savoir : Perpendicularité, parallélisme.
+                Compétences associées
+                    Tracer avec l’équerre la droite perpendiculaire à une droite donnée passant par un point donné.
+                    Tracer avec la règle et l’équerre la droite parallèle à une droite donnée passant par un point donné.
+                    Déterminer le plus court chemin entre un point et une droite.
+                    Déterminer avec la rêgle la distance entre deux points
+                    Déterminer avec la rêgle et l'équerre la distance entre un point et une droite
+            Symétrie axiale
+                Connaissances
+                    Savoir : Figure symétrique, axe de symétrie d’une figure, figures symétriques par rapport à un axe.
+                    Savoir : Propriétés de conservation de la symétrie axiale.
+                    Médiatrice d’un segment : définition : droite perpendiculaire au segment en son milieu ;
+                    Médiatrice d’un segment : caractérisation : ensemble des points équidistants des extrémités du segment.
+                Compétences associées
+                    Compléter une figure par symétrie axiale.
+                    Construire le symétrique d’un point, d’un segment, d’une droite par rapport à un axe donné. 
+                    Construire la figure symétrique d'une figure donnée par rapport à un axe donné.
+                    Construire la médiatrice d'un segment avec un compas et une rêgle.
+            Proportionnalité
+                Connaissances
+                Compétences associées
+                    Reproduire une figure en respectant une échelle donnée.
+                    Agrandissement ou réduction d’une figure.
+
+
+
+
+
+
+
+
+
+
+cycle 4
+    Nombres et calculs
+        Utiliser les nombres pour comparer, calculer et résoudre des problèmes
+            Nombres
+                Connaissances
+                    Nombres décimaux (positifs et négatifs), notion d’opposé.
+                    Fractions, nombres rationnels (positifs et négatifs), notion d’inverse.
+                    Les carrés parfaits de 1 à 144.
+                    Définition de la racine carrée.
+                    Les préfixes de nano à giga.
+                Compétences associées
+                    Utiliser diverses représentations d’un même nombre (écriture décimale ou fractionnaire, notation scientifique, repérage sur une droite graduée).
+                    Passer d’une représentation d’un nombre à une autre.
+            Comparaisons de nombres
+                Connaissances
+                    Égalité de fractions (démonstration possible à partir de la définition du quotient).
+                    Ordre sur les nombres rationnels en écriture décimale ou fractionnaire.
+                Compétences associées
+                    Comparer, ranger, encadrer des nombres rationnels en écriture décimale, fractionnaire ou scientifique
+                    Repérer et placer un nombre rationnel sur une droite graduée.
+                    Associer à des objets des ordres de grandeur (par exemple taille d’un atome, d’une bactérie, d’une alvéole pulmonaire, longueur de l’intestin, capacité de stockage d’un disque dur, vitesses du son et de la lumière, populations française et mondiale, distance Terre-Lune, distance du Soleil à l’étoile la plus proche, etc.).
+            Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté
+                Connaissances
+                    Somme, différence, produit, quotient de nombres décimaux, de deux nombres rationnels.
+                    Puissance entière et positive d’un nombre.
+                    Puissance entière et négative d’un nombre.
+                    Notation scientifique.
+                Compétences associées
+                    Calculer des fractions avec des nombres relatifs.
+                    Calculer des fractions avec des nombres décimaux.
+                    Vérifier la vraisemblance d’un résultat, notamment en estimant son ordre de grandeur.
+                    Effectuer des calculs numériques simples impliquant des puissances, notamment en utilisant la notation scientifique.
+                    Utiliser la racine carrée pour résoudre des problèmes, notamment géométriques.
+                    Effectuer des calculs pour traiter des problèmes.
+                    Effectuer des comparaisons pour traiter des problèmes.
+                    La mise en acte de produits et de quotients de puissances de même base résulte de l’application de la définition plutôt que de celle d’une formule.
+        Comprendre et utiliser les notions de divisibilité et de nombres premiers
+                Connaissances
+                    Multiples.
+                    Diviseurs.
+                    Critères de divisibilité par 2, 3, 5, 9.
+                    Division euclidienne (quotient, reste).
+                    Définition d’un nombre premier 
+                    Connnaitre la liste des nombres premiers inférieurs ou égaux à 30.
+                    Fractions irréductibles.
+                Compétences associées
+                    Déterminer si un entier est ou n’est pas multiple ou diviseur d’un autre entier.
+                    Déterminer les nombres premiers inférieurs ou égaux à 100.
+                    Utiliser les critères de divisibilité par 2, 3, 5, 9, 10.
+                    Déterminer les diviseurs d’un nombre à la main, à l’aide d’un tableur, d’une calculatrice.
+                    Décomposer un nombre entier en produit de facteurs premiers (à la main ou à l’aide d’un logiciel).
+                    Simplifier une fraction pour la rendre irréductible.
+                    Modéliser et résoudre des problèmes mettant en jeu la divisibilité (engrenages, conjonction de phénomènes, etc.).
+        Utiliser le calcul littéral
+                Connaissances
+                    Notions d’inconnue, d’équation, d’indéterminée, d’identité.
+                    Propriétés de distributivité simple.
+                    Propriétés de distributivité double.
+                    Annulation d’un produit (démonstration possible par disjonction de cas).
+                    Factorisation de a²-b².
+                Compétences associées
+                    Développer, réduire et ordonner des expressions algébriques dans des cas très simples.
+                    factoriser et réduire des expressions algébriques dans des cas très simples.
+                    Utiliser le calcul littéral pour traduire une propriété générale (par exemple la distributivité simple), pour démontrer un résultat général (par exemple que la somme de trois entiersconsécutifs est un multiple de trois), pour valider ou réfuter une conjecture, pour modéliser une situation.
+                    Mettre un problème en équation en vue de sa résolution.
+                    Résoudre algébriquement des équations du premier degré ou s’y ramenant (équations produits), en particulier des équations du type x² = a.
+                    Il est attendu de démontrer au moins une propriété du calcul fractionnaire en utilisant le calcul littéral et la définition du quotient.
+                    les règles de calcul sur les nombres relatifs et les fractions, notamment la condition d’égalité de deux fractions (si ad = bc, alors a/b = c/d et réciproquement) ;
+                    les conventions d’écritures du calcul littéral ;
+                    les formules de distributivité simple ;
+                    les formules de distributivité double ;
+                    l’identité a² - b² = (a – b)(a + b) ;
+                    les procédures de résolution d’équations du type ax = b et a + x = b.
+
+
+
+    Organisation et gestion de données, fonctions
+        Interpréter, représenter et traiter des données
+                Connaissances
+                    Effectifs.
+                    Fréquences.
+                    Indicateurs de position : moyenne.
+                    Indicateurs de position : médiane.
+                    Indicateur de dispersion : étendue.
+                Compétences associées
+                    Recueillir des données, les organiser.
+                    Lire et interpréter des données sous forme de données brutes, de tableau, de diagramme (diagramme en bâtons, diagramme circulaire, histogramme).
+                    Utiliser un tableur-grapheur pour présenter des données sous la forme d’un tableau ou d’un diagramme.
+                    Calculer des effectifs, des fréquences.
+                    Calculer et interpréter des indicateurs de position (moyenne et médiane).
+                    Calculer et interpréter l'indicateur de dispersion d'une série statistique.
+        Comprendre et utiliser des notions élémentaires de probabilités
+                Connaissances
+                    Vocabulaire des probabilités.
+                    Notion de probabilité ; la probabilité d’un événement est comprise entre 0 et 1.
+                    Probabilité d’événements certains, impossibles, contraires.
+                Compétences associées
+                    Aborder les questions relatives au hasard à partir de problèmes simples.
+                    Calculer des probabilités dans des cas simples (par exemple évaluation des chances de gain dans un jeu).
+                    Exprimer des probabilités sous diverses formes (décimale, fractionnaire, pourcentage).
+                    Faire le lien entre fréquence et probabilité.
+        Résoudre des problèmes de proportionnalité
+                Connaissances
+                    Coefficient de proportionnalité.
+                    Taux d’évolution, coefficient multiplicateur.
+                    Notion de ratio : trois nombres a, b, c sont dans le ratio 2 : 3 : 7 (notation standardisée) si a/2 = b/3 = c/7.
+                Compétences associées
+                    Reconnaître une situation de proportionnalité.
+                    Reconnaître une situation de non-proportionnalité.
+                    Calculer une quatrième proportionnelle.
+                    Partager une quantité (par exemple une somme d’argent) en deux ou trois parts selon un ratio donné.
+                    Utiliser une formule liant deux grandeurs dans une situation de proportionnalité (par exemple la longueur d’un cercle en fonction de son rayon, la loi d’Ohm exprimant la tension en fonction de l’intensité, la distance parcourue en fonction du temps à vitesse constante, etc.).
+                    Résoudre des problèmes utilisant la proportionnalité (pourcentages, échelles, agrandissement réduction).
+                    Effectuer différentes procédures de calcul d’une quatrième proportionnelle ;
+                    Mettre en oeuvre les procédures d’application et de calcul d’un pourcentage ou d’une échelle
+        Comprendre et utiliser la notion de fonction
+                Connaissances
+                    Vocabulaire : variable, fonction, antécédent, image.
+                    Différents modes de représentation d’une fonction (expression symbolique, tableau de valeurs, représentation graphique, programme de calcul).
+                    Notations f(𝑥) et 𝑥 ↦ f(𝑥).
+                    Fonction linéaire.
+                    Fonction affine.
+                Compétences associées
+                    Passer d’un mode de représentation d’une fonction à un autre.
+                    Déterminer, à partir d’un mode de représentation, l’image ou un antécédent d’un nombre par une fonction.
+                    Représenter graphiquement une fonction linéaire.
+                    Représenter graphiquement une fonction affine.
+                    Modéliser un phénomène continu par une fonction.
+                    Modéliser une situation de proportionnalité à l’aide d’une fonction linéaire.
+                    Tracer la représentation graphique d’une fonction affine ou linéaire
+                    Résoudre des problèmes modélisés par des fonctions.
+                    Effectuer des procédures de recherche d’image et d’antécédent d’un nombre par une fonction.
+    
+
+
+    Grandeurs et mesures
+        Calculer avec des grandeurs mesurables ; exprimer les résultats dans les unités adaptées
+                Connaissances
+                    Notion de grandeur produit et de grandeur quotient.
+                    Aire du parallélogramme (obtenue à partir de celle du rectangle par découpage et recollement).
+                    Volume d’un prisme, d’une pyramide, d’un cylindre, d’un cône, d’une boule.
+                    Correspondance entre unités de volume et de contenance (1 L = 1 dm3, 1 000 L = 1 m3).
+                Compétences associées
+                    Mener des calculs impliquant des grandeurs mesurables, notamment des grandeurs composées, exprimer les résultats dans les unités adaptées.
+                    Vérifier la cohérence des résultats du point de vue des unités.
+                    Effectuer des conversions d’unités.
+        Comprendre l’effet de quelques transformations sur les figures géométriques
+                Connaissances
+                    Effet d’un déplacement, d'un agrandissement ou d'une réduction sur les longueurs, les angles, les aires et les volumes.
+                Compétences associées
+                    Utiliser un rapport de réduction ou d'agrandissement (architecture, maquettes) pour calculer des longueurs, des aires, des volumes.
+                    Utiliser l’échelle d’une carte.
+                    Utiliser des transformations pour calculer des grandeurs géométriques.
+                    Faire le lien entre la proportionnalité et certaines configurations ou transformations géométriques (agrandissement réduction, triangles semblables, homothéties).
+
+
+    Espace et géométrie
+        Représenter l’espace
+                Connaissances
+                    Abscisse, ordonnée, altitude.
+                    Latitude, longitude.
+                Compétences associées
+                    (Se) repérer sur une droite graduée, dans le plan muni d'un repère orthogonal, dans un parallélépipède rectangle, sur une sphère.
+                    Reconnaître des solides (pavé droit, cube, prisme, cylindre, pyramide, cône, boule).
+                    Construire et mettre en relation des représentations de ces solides (vues en perspective cavalière, de face, de dessus, sections planes, patrons, etc.).
+                    Utiliser un logiciel de géométrie dynamique pour représenter des solides.
+        Utiliser les notions de géométrie plane pour démontrer
+                Connaissances
+                    Caractérisation angulaire du parallélisme : angles alternes internes, angles correspondants.
+                    Triangle : somme des angles d’un triangle (démonstration possible en utilisant les angles correspondants) ;
+                    Triangle : hauteurs ;
+                    Triangle : médiatrices ;
+                    Triangle : inégalité triangulaire ;
+                    Triangle : cas d’égalité des triangles ;
+                    Triangle : triangles semblables (une définition et une propriété caractéristique).
+                    Parallélogramme (une définition et une propriété caractéristique).
+                    Le théorème de Thalès (configurations des triangles emboîtés et du papillon).
+                    La réciproque du théorèmede Thalès.
+                    Le théorème de Pythagore (hypoténuse).
+                    Le théorème de Pythagore (côtés adjacent).
+                    La réciproque du théorème de Pythagore.
+                    Lignes trigonométriques dans le triangle rectangle : cosinus, sinus, tangente.
+                Compétences associées
+                    Mettre en œuvre ou écrire un protocole de construction d’une figure géométrique.
+                    Faire le lien entre les cas d’égalité des triangles et la construction d’un triangle à partir de la donnée de longueurs des côtés et/ou de mesures d’angles.
+                    Comprendre l’effet d’une translation, d’une symétrie (axiale et centrale), d’une rotation, d’une homothétie sur une figure.
+                    Mobiliser les connaissances des figures, des configurations et des transformations au programme pour déterminer des grandeurs géométriques.
+                    Mener des raisonnements et s’initier à la démonstration en utilisant les propriétés des figures, des configurations et des transformations.
+
+    Algorithmique et programmation
+        Écrire, mettre au point, exécuter un programme
+                Connaissances
+                    Notions d’algorithme et de programme.
+                    Notion de variable informatique.
+                    Déclenchement d’une action par un événement.
+                    Séquences d’instructions, boucles, instructions conditionnelles.
+                Compétences associées
+                    Écrire, mettre au point (tester, corriger) et exécuter un programme en réponse à un problème donné.
+
+
+
+
+
+
+
+
+
+
+    Nombres et calculs (cycle 3)
+        Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux
+        Utiliser les nombres décimaux pour rendre compte de mesures de grandeurs.
+        Calculer avec des nombres entiers et des nombres décimaux
+            Calcul mental ou en ligne
+            Calcul posé
+            Calcul instrumenté
+    Nombres et calculs (cycle 4)
+        Utiliser les nombres pour comparer, calculer et résoudre des problèmes
+            Nombres
+            Comparaisons de nombres
+            Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté
+        Comprendre et utiliser les notions de divisibilité et de nombres premiers
+        Utiliser le calcul littéral
+
+    Résoudre des problèmes en utilisant des fractions, des nombres décimaux et le calcul
+            Organisation et gestion de données
+            Proportionnalité
+
+    Grandeurs et mesures (cycle 3)
+        Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs
+            Longueur et périmètre
+            Aires
+            Volumes et contenances
+            Angles
+        Résoudre des problèmes impliquant des grandeurs (géométriques, physiques, économiques) en utilisant des nombres entiers et des nombres décimaux
+            Proportionnalité
+    Grandeurs et mesures (cycle 4)
+            Calculer avec des grandeurs mesurables ; exprimer les résultats dans les unités adaptées
+            Comprendre l’effet de quelques transformations sur les figures géométriques
+
+    Espace et géométrie (cycle 3)
+        (Se) repérer et (se) déplacer dans l’espace en utilisant ou en élaborant des représentations
+        Reconnaître, nommer, décrire, reproduire, représenter, construire quelques solides et figures géométriques
+        Reconnaître et utiliser quelques relations géométriques
+            Relations de perpendicularité et de parallélisme
+            Symétrie axiale
+            Proportionnalité
+    Espace et géométrie (cycle 4)
+            Représenter l’espace
+            Utiliser les notions de géométrie plane pour démontrer
+cycle 4
+    Organisation et gestion de données, fonctions
+        Interpréter, représenter et traiter des données
+        Comprendre et utiliser des notions élémentaires de probabilités
+        Résoudre des problèmes de proportionnalité
+        Comprendre et utiliser la notion de fonction
+    Algorithmique et programmation
+        Écrire, mettre au point, exécuter un programme

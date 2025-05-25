@@ -1,0 +1,102 @@
+[
+    {
+        "titre": "DM 7",
+        "uuid": "63eacc9a-132a-4a2f-b22b-a1df3e09009b",
+        "category": "DM",
+        "beginning": "2022-03-03",
+        "collecte": "2022-03-10",
+        "rendu": "2022-03-17",
+        "knowledge_model": [
+            "Priorités opératoires",
+            "Expressions littérales"
+        ],
+        "knowledge_NotModel": [
+            "Fonction Affine"
+        ],
+        "childs_evaluated": [
+            "fdfa30dc-063f-461b-b3de-fafdba382e7c"
+        ]
+    },
+    {
+        "titre": "DS 2",
+        "uuid": "c226d0ab-8ab8-46cd-9aa8-f2fa68390c46",
+        "category": "CS",
+        "beginning": "2022-03-03",
+        "collecte": "2022-03-10",
+        "rendu": "2022-03-17",
+        "knowledge_model": [
+            "Equations du premier degré",
+            "Catégories de triangles",
+            "Construire un triangle"
+        ],
+        "knowledge_NotModel": [],
+        "childs_evaluated": [
+            "fdfa30dc-063f-461b-b3de-fafdba382e7c",
+            "a8b32db5-3cf3-4ac4-a8cf-7fd1f09a329b"
+        ]
+    },
+    {
+        "titre": "eval_5",
+        "uuid": "186295b0-6eaa-4752-85f4-20c9a6bb6800",
+        "category": "CS",
+        "beginning": "2024-05-12",
+        "collecte": "2024-05-12",
+        "rendu": "2024-05-12",
+        "knowledge_model": [
+            "Racine carrée",
+            "Expressions littérales"
+        ],
+        "knowledge_NotModel": [],
+        "childs_evaluated": [
+            "776b2ecf-5894-4b21-b859-ff9171e604d3",
+            "a5f430c0-b244-44ef-90ae-8f122606602c",
+            "7abe2088-d2a2-4028-9f9a-860b4f955864",
+            "a8b32db5-3cf3-4ac4-a8cf-7fd1f09a329b",
+            "fdfa30dc-063f-461b-b3de-fafdba382e7c"
+        ]
+    },
+    {
+        "titre": "Test 5",
+        "uuid": "21709d82-2dc2-4cc6-ba03-bff982ec4b5c",
+        "category": "CS",
+        "beginning": "2024-05-22",
+        "collecte": "2024-05-22",
+        "rendu": "2024-05-22",
+        "knowledge_model": [
+            "Racine carrée",
+            "Catégories de triangles",
+            "Expressions littérales",
+            "Construire un triangle"
+        ],
+        "knowledge_NotModel": [],
+        "childs_evaluated": [
+            "776b2ecf-5894-4b21-b859-ff9171e604d3",
+            "a5f430c0-b244-44ef-90ae-8f122606602c",
+            "a8b32db5-3cf3-4ac4-a8cf-7fd1f09a329b",
+            "ac37b4aa-ebb3-40d2-ad08-aad2b0b7a0c3",
+            "fdfa30dc-063f-461b-b3de-fafdba382e7c"
+        ]
+    },
+    {
+        "titre": "eval test",
+        "uuid": "7f9151af-2fea-409f-990d-1dc247f376e8",
+        "category": "CS",
+        "beginning": "2024-06-21",
+        "collecte": "2024-06-21",
+        "rendu": "2024-06-21",
+        "knowledge_model": [
+            "Priorités opératoires",
+            "Catégories de triangles",
+            "Expressions littérales",
+            "Racine carrée"
+        ],
+        "knowledge_NotModel": [],
+        "childs_evaluated": [
+            "776b2ecf-5894-4b21-b859-ff9171e604d3",
+            "a5f430c0-b244-44ef-90ae-8f122606602c",
+            "7abe2088-d2a2-4028-9f9a-860b4f955864",
+            "a8b32db5-3cf3-4ac4-a8cf-7fd1f09a329b",
+            "fdfa30dc-063f-461b-b3de-fafdba382e7c"
+        ]
+    }
+]

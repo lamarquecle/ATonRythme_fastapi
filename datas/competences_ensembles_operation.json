@@ -1,0 +1,4683 @@
+
+[
+
+    {"_":"##### rationnel = fraction ; positifs = entiers positifs #######"},
+    {"_":"###########################################  ensembles-opérations  ############################################"},
+
+    {"_":"####   Entiers positifs   #####"},
+    {
+        "cycle": 3,
+        "uuid": "ens_1",
+        "zone": [],
+        "category": "",
+        "knowledge": "",
+        "knowledge_small": "Nombres entiers positifs.",
+        "example" : "",
+        "ancestors" : []
+    },
+    {
+        "cycle": 3,
+        "uuid": "118 N+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Connaître les unités de la numération décimale pour les nombres entiers (unités simples, dizaines, centaines, milliers, millions, milliards) et les relations qui les lient.",
+        "knowledge_small": "Unités entières des entiers positifs",
+        "example" : "connaissance : Les unités de la numération décimale sont 'unités', 'dizaines', 'centaines', 'milliers', 'millions' et 'milliards'.",
+        "ancestors" : [["ens_1"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "34 N+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Comparaisons de nombres"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Associer à des objets des ordres de grandeur (par exemple taille d’un atome, d’une bactérie, d’une alvéole pulmonaire, longueur de l’intestin, capacité de stockage d’un disque dur, vitesses du son et de la lumière, populations française et mondiale, distance Terre-Lune, distance du Soleil à l’étoile la plus proche, etc.).",
+        "knowledge_small": "Ordre de grandeur positive et entière d'un objet de taille humaine.",
+        "example" : "exemple : La taille d'un stylo tourne autour de 1 décimètre.",
+        "ancestors" : [["118"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "101 N+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Comprendre les règles de la numération décimale de position aux grands nombres entiers (jusqu’à 12 chiffres).",
+        "knowledge_small": "Règles décimales des entiers",
+        "example" : "exemple : Un nombre ayant '5' pour chiffre des centaines est 583",
+        "ancestors" : [["118"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "121 N+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Appliquer aux nombres décimaux les règles de la numération décimale de position (valeurs des chiffres en fonction de leur rang).",
+        "knowledge_small": "Numération décimale de position pour les entiers positifs",
+        "example" : "exemple : Pour le nombre 538, le '5' est dans la position des centaines.",
+        "ancestors" : [["118"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "109 N+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Comparer, ranger, encadrer des grands nombres entiers.",
+        "knowledge_small": "Comparer, ranger, encadrer des grands nombres entiers",
+        "example" : "exemples : le nombre 5 est encadré par 4 et 6 ; le nombre 11 est plus grand que 9.",
+        "ancestors" : [["121", "102"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "99 N+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Composer les grands nombres entiers, en utilisant des regroupements par milliers, ",
+        "knowledge_small": "Composer les entiers positifs par milliers",
+        "example" : "exemple : 5 millions, 234 mille et 23 unités = 5 234 023",
+        "ancestors" : [["ens_1"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "100 N+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Décomposer les grands nombres entiers, en utilisant des regroupements par milliers.",
+        "knowledge_small": "Décomposer les entiers positifs par milliers",
+        "example" : "exemple : 5 000 009 = 5 millions et 9 unités.",
+        "ancestors" : [["ens_1"]]
+    },
+
+
+
+
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_1.1",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir additionner les entiers positifs",
+        "knowledge_small": "Addition entiers positifs",
+        "example" : "exemple : 1 + 4 + 5  = 5 + 5 = 10.",
+        "ancestors" : [["118"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "130 N+ +",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul mental ou en ligne"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Connaître des propriétés de l’addition, de la soustraction et de la multiplication, et notamment : 12 + 199 = 199 + 12 ; 5 x 21 = 21 x 5 ; 27,9 + 1,2 + 0,8 = 27,9 + 2 ; 3,2 × 25 × 4 = 3,2 × 100 ; 45 × 21 = 45 × 20 + 45 ; 6 × 18 = 6 × 20 - 6 × 2 ; 23 × 7 + 23 × 3 = 23 × 10.",
+        "knowledge_small": "Propriétés additives entre entiers positifs",
+        "example" : "exemple : 5 + 3 = 3 + 5 ; 9 + 5 + 1 = 9 + 1 + 5.",
+        "ancestors" : [["ens_ope_1.1"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "57 N+ +",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul posé"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Mettre en œuvre un algorithme de calcul posé pour effectuer : l’addition, la soustraction et la multiplication de nombres entiers ou décimaux ;",
+        "knowledge_small": "Poser addition d'entiers positifs",
+        "example" : "exemple : 178 + 1938 = ... = 2116",
+        "ancestors" : [["130"]]
+    },
+
+
+
+
+
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_1.2",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir effectuer une soustraction positive des entiers positifs ",
+        "knowledge_small": "Soustraction positive des entiers positifs",
+        "example" : "exemple : 9 - 3 = 6",
+        "ancestors" : [["57"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "58 N+ -",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul posé"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Mettre en œuvre un algorithme de calcul posé pour effectuer : l’addition, la soustraction et la multiplication de nombres entiers ou décimaux ;",
+        "knowledge_small": "Poser soustraction positive d'entiers positifs",
+        "example" : "exemple : 2116 - 1938 = ... = 178.",
+        "ancestors" : [["ens_ope_1.2"]]
+    },
+
+
+
+
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_1.3",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir multiplier les entiers positifs",
+        "knowledge_small": "Multiplication entiers positifs",
+        "example" : "connaissance : Multiplier 5 par 3 est noté '5 x 3' et revient à faire 5 + 5 + 5.",
+        "ancestors" : [["57"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "59 N+ x",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul mental ou en ligne",
+            "Tables de multiplication jusqu’à 9"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Mobiliser les faits numériques mémorisés au cycle 2, notamment les tables de multiplication jusqu’à 9.",
+        "knowledge_small": "Tables de multiplication 0, 1, 2, 3, 4, 5, 9",
+        "example" : "exemples : 3 x 4 = 12 ; 5 x 7 = 35 ; ...",
+        "ancestors" : [["57"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "60 N+ x",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul mental ou en ligne",
+            "Tables de multiplication jusqu’à 9"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Mobiliser les faits numériques mémorisés au cycle 2, notamment les tables de multiplication jusqu’à 9.",
+        "knowledge_small": "Tables de multiplication 6, 7, 8",
+        "example" : "exemples : 6 x 8 = 48 ; 7 x 8 = 56 ; ...",
+        "ancestors" : [["59"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "302 N+ x",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul mental ou en ligne"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Connaître des propriétés de l’addition, de la soustraction et de la multiplication, et notamment : 12 + 199 = 199 + 12 ; 5 x 21 = 21 x 5 ; 27,9 + 1,2 + 0,8 = 27,9 + 2 ; 3,2 × 25 × 4 = 3,2 × 100 ; 45 × 21 = 45 × 20 + 45 ; 6 × 18 = 6 × 20 - 6 × 2 ; 23 × 7 + 23 × 3 = 23 × 10.",
+        "knowledge_small": "Propriétés multiplicatives entre entiers positifs",
+        "example" : "connaissance : 3 x 4 = 4 x 3 ; 5 x 9 x 2 = 5 x 2 x 9",
+        "ancestors" : [["60"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "320 N Nx",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul mental ou en ligne"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Dans un calcul en ligne, utiliser des parenthèses pour indiquer ou respecter une chronologie dans les calculs.",
+        "knowledge_small": "Chronologie des calculs",
+        "example" : "exemples : 4 x ( 3 + 2 ) = 4 x 12 ; 4 + (3 + 2) = 4 + 5 ; Avec 2 + 4 x 3, la chronologie des calculs est (2 + (4x3))",
+        "ancestors" : [["302"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "157 N+ x",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul mental ou en ligne"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "",
+        "knowledge_small": "Multiples d'un entier positif",
+        "example" : "exemples : le nombre 12 a pour multiples 24, 48, ....",
+        "ancestors" : [["60"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "61 N+ x",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul mental ou en ligne"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Connaître les multiples de 25 et de 50, les diviseurs de 100.",
+        "knowledge_small": "Multiples de 25, 50",
+        "example" : "exemples : Les multiples de 50 se terminent par 50 ou 00, ainsi 12350 est un multiple de 50.",
+        "ancestors" : [["157"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "62 N+ x",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul posé"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Mettre en œuvre un algorithme de calcul posé pour effectuer : l’addition, la soustraction et la multiplication de nombres entiers ou décimaux ;",
+        "knowledge_small": "Poser multiplication d'entiers positifs",
+        "example" : "exemple : 124 x 21 = ... = 2604",
+        "ancestors" : [["60"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "63 N+ x",
+        "zone": [
+            "Nombres et calculs",
+            "Comprendre et utiliser les notions de divisibilité et de nombres premiers"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Déterminer si un entier est ou n’est pas multiple ou diviseur d’un autre entier.",
+        "knowledge_small": "Déterminer si un entier est ou n'est pas multiple d'un entier",
+        "example" : "exemple : Le nombre 23 n'est pas un multiple de 7 car 7 x 3 = 21 < 23 < 28 = 7 x 4.",
+        "ancestors" : [["60"]]
+    },
+
+
+
+
+
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_1.4",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir diviser les entiers positifs dont le résultat est entier",
+        "knowledge_small": "Diviser entiers positifs à résultat entier",
+        "example" : "",
+        "ancestors" : [["58","60"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "64 N+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Comprendre et utiliser les notions de divisibilité et de nombres premiers"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Division euclidienne (quotient, reste).",
+        "knowledge_small": "Division euclidienne entre entiers positifs (quotient, reste)",
+        "example" : "exemple : Pour la division euclidienne de 123 par 5, on a 123 = 5 x 24 + 3 où 24 est le quotient et 3 le reste.",
+        "ancestors" : [["ens_ope_1.4"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "76 N+ :",
+        "zone": [
+            "Algorithmique et programmation",
+            "Écrire, mettre au point, exécuter un programme"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Mettre en œuvre un algorithme de calcul posé pour effectuer : la division euclidienne d’un entier par un entier ;",
+        "knowledge_small": "Division euclidienne d'entiers à partir d'un algorithme",
+        "example" : "exemple : Pour 19 divisé par 5, on effectue : 19 - 5 = 14 ; 14 - 5 = 9 ; 9 - 5 = 4 < 5. Donc 19 = 5 x 3 + 4.",
+        "ancestors" : [["64", "125"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "65 N+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Comprendre et utiliser les notions de divisibilité et de nombres premiers"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Diviseurs.",
+        "knowledge_small": "Diviseur d'un entier positif",
+        "example" : "On dit que A divide B si le reste de la division euclidienne de B par A est 0.",
+        "ancestors" : [["64"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "71 N+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Comprendre et utiliser les notions de divisibilité et de nombres premiers"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Déterminer si un entier est ou n’est pas multiple ou diviseur d’un autre entier.",
+        "knowledge_small": "Définir si entier est ou n'est pas diviseur un entier",
+        "example" : "exemple : Le reste de la dicision euclidienne de 20 par 5 est 0. Donc 5 est un diviseur de 20.",
+        "ancestors" : [["65"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "73bis N+ :",
+        "zone": [
+            "Algorithmique et programmation",
+            "Écrire, mettre au point, exécuter un programme"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Mettre en œuvre un algorithme de calcul posé pour effectuer : la division euclidienne d’un entier par un entier ;",
+        "knowledge_small": "Diviseurs de 100 à partir d'un algorithme.",
+        "example" : "exemple : Parcourir tout les nombres de 1 à 100 et retenir les diviseurs.",
+        "ancestors" : [["64", "125"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "66 N+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Comprendre et utiliser les notions de divisibilité et de nombres premiers"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Critères de divisibilité par 2, 3, 5, 9.",
+        "knowledge_small": "Critères de divisibilité par 2, 3, 5, 9",
+        "example" : "connaissance : Un nombre est multiple de 3 si la somme de ses chiffres est un multiple de 3.",
+        "ancestors" : [["65"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "68 N+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul mental ou en ligne"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Connaître les critères de divisibilité par 2, 3, 5, 9 et 10.",
+        "knowledge_small": "Connaître critères de divisibilité par 2, 3, 5, 9 et 10",
+        "example" : "connaissance : Un nombre est multiple de 3 si la somme de ses chiffres est un multiple de 3.",
+        "ancestors" : [["66"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "67 N+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Comprendre et utiliser les notions de divisibilité et de nombres premiers"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Utiliser les critères de divisibilité par 2, 3, 5, 9, 10.",
+        "knowledge_small": "Utiliser critères de divisibilité par 2, 3, 5, 9 et 10",
+        "example" : "exemple : 213321 est divisible par 3 car 2 + 1 + 3 + 3 + 2 + 1 = 12 est un multiple de 3.",
+        "ancestors" : [["68"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "69 N+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Comprendre et utiliser les notions de divisibilité et de nombres premiers"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Définition d’un nombre premier ",
+        "knowledge_small": "Définition nombre premier",
+        "example" : "connaissance : Un nombre entier est dit premier s'il a exactement deux diviseurs entiers positifs.",
+        "ancestors" : [["67"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "70 N+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Comprendre et utiliser les notions de divisibilité et de nombres premiers"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Connnaitre la liste des nombres premiers inférieurs ou égaux à 30.",
+        "knowledge_small": "Nombres premiers inférieurs à 30",
+        "example" : "exemples : 5, 7, 13, 29, ... .",
+        "ancestors" : [["69"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "324 N+ :",
+        "zone": [
+            "Algorithmique et programmation",
+            "Écrire, mettre au point, exécuter un programme"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Déterminer les nombres premiers inférieurs ou égaux à 100.",
+        "knowledge_small": "Nombres premiers inférieurs à 100 via un algorithme.",
+        "example" : "exemple : Se baser sur un algorithme permettant de définir si un nombre est premier.",
+        "ancestors" : [["73bis", "70"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "75 N+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Comprendre et utiliser les notions de divisibilité et de nombres premiers"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Décomposer un nombre entier en produit de facteurs premiers (à la main ou à l’aide d’un logiciel).",
+        "knowledge_small": "Décomposition produit de facteurs premiers",
+        "example" : "exemple : 60 = 6 x 10 = 3 x 2 x 5 x 2 = 2² x 3 x 5",
+        "ancestors" : [["70", "ens_ope_1.5"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "74 N+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Comprendre et utiliser les notions de divisibilité et de nombres premiers"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Déterminer les diviseurs d’un nombre à la main, à l’aide d’un tableur, d’une calculatrice.",
+        "knowledge_small": "Diviseurs d'un nombre",
+        "example" : "exemple : 60 = 2² x 3 x 5. Ainsi, 60 est divisible par 1, 2, 3, 5, 6, 10, 12, 15, 20, 30 et 60.",
+        "ancestors" : [["75"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "73 N+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul mental ou en ligne"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Connaître les multiples de 25 et de 50, les diviseurs de 100.",
+        "knowledge_small": "Diviseurs de 100",
+        "example" : "",
+        "ancestors" : [["74"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "31_ N+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Comprendre et utiliser les notions de divisibilité et de nombres premiers"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Modéliser et résoudre des problèmes mettant en jeu la divisibilité (engrenages, conjonction de phénomènes, etc.).",
+        "knowledge_small": "Problèmes de divisibilité",
+        "example" : "",
+        "ancestors" : [["67"]]
+    },
+
+
+
+
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_1.5",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Nombres"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Savoir calculer la puissance d'un entier positif",
+        "knowledge_small": "Puissance entière et positive d'un entier positif",
+        "example" : "",
+        "ancestors" : [["62"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "77 N+ ^",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Effectuer des calculs numériques simples impliquant des puissances, notamment en utilisant la notation scientifique.",
+        "knowledge_small": "Puissance entière d'entiers positifs",
+        "example" : "",
+        "ancestors" : [["ens_ope_1.5"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "35 N+ ^",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Nombres"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Les carrés parfaits de 1 à 144.",
+        "knowledge_small": "Carrés parfaits de 1 à 144",
+        "example" : "",
+        "ancestors" : [["77"]]
+    },
+
+
+
+
+
+
+    {"_":"###   Décimaux positifs (D+)   #####"},
+    {
+        "cycle": 3,
+        "uuid": "36 D+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Connaître et utiliser diverses désignations orales et écrites d’un nombre décimal (fractions décimales, écritures à virgule, décompositions additives et multiplicatives).",
+        "knowledge_small": "Désignation orales et écrites des décimaux",
+        "example" : "exemple : 1200,123 est une désignation écrite d'un nombre décimal ce qui correspond oralement à 'mille deux cent virgule cent vingt-trois'.",
+        "ancestors" : [["ens_ope_1.1"]]
+    },
+
+    {
+        "cycle": 3,
+        "uuid": "114 D+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres décimaux pour rendre compte de mesures de grandeurs."
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Encadrer un nombre décimal par deux nombres entiers, par deux nombres décimaux.",
+        "knowledge_small": "Encadrer décimal par des entiers",
+        "example" : "exemple : Pour 3,12, on a 3 < 3,12 < 4",
+        "ancestors" : [["36", "109"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "115 D+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres décimaux pour rendre compte de mesures de grandeurs."
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Encadrer un nombre décimal par deux nombres entiers, par deux nombres décimaux.",
+        "knowledge_small": "Encadrer décimal par des décimaux",
+        "example" : "exemple : Pour 3,67, on a 3,6 < 3,67 < 3,7.",
+        "ancestors" : [["114"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "305 D+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres décimaux pour rendre compte de mesures de grandeurs."
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Comparer, ranger des nombres décimaux.",
+        "knowledge_small": "Comparer, ranger des décimaux",
+        "example" : "exemple : Entre 3,201 et 3,3 , il est possible trouver 3,25.",
+        "ancestors" : [["115"]]
+    },
+
+
+    {
+        "cycle": 3,
+        "uuid": "110 D",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres décimaux pour rendre compte de mesures de grandeurs."
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Comparer, ranger des nombres décimaux.",
+        "knowledge_small": "Comparer, ranger des décimaux",
+        "example" : "exemple : 1,2192 < 1,3 ; 0,00012938 < 0,1.",
+        "ancestors" : [["105", "109"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "122 D+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Appliquer aux nombres décimaux les règles de la numération décimale de position (valeurs des chiffres en fonction de leur rang).",
+        "knowledge_small": "Numération décimale de position pour un nombre décimal",
+        "example" : "exemple : Pour le nombre 8,201, le chiffre des centièmes est 0.",
+        "ancestors" : [["36", "121"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "123 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Nombres"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Les préfixes de nano à giga.",
+        "knowledge_small": "Préfixes de nano à giga",
+        "example" : "connaissance : Les préfixes de nano à giga sont : nano, micro, mili, centi, dég, déca, hecto, kilo, mége, giga.",
+        "ancestors" : [["121", "122"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "119 D+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Connaître les unités de la numération décimale (unités simples, dixièmes, centièmes, millièmes) et les relations qui les lient.",
+        "knowledge_small": "Unités entières des décimaux positifs",
+        "example" : "connaissance : Les unités entières des décimaux sont les unités simples, dizaines, centaines, milliers, millions.",
+        "ancestors" : [["36", "118"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "120 D+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Connaître les unités de la numération décimale (unités simples, dixièmes, centièmes, millièmes) et les relations qui les lient.",
+        "knowledge_small": "Unités décimales des décimaux positifs",
+        "example" : "connaissance : Les unités entières des décimaux sont les unités simples, dixièmes, centièmes, millièmes.",
+        "ancestors" : [["119"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "124 D+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres décimaux pour rendre compte de mesures de grandeurs."
+        ],
+        "category": "Connaissances",
+        "knowledge": "Connaître le lien entre les unités de numération et les unités de mesure (par exemple : dixième à dm/dg/dL, centième à cm/cg/cL/centimes d’euro).",
+        "knowledge_small": "Liens unités numération/mesure",
+        "example" : "exemple : En unités de numération correspondent à la localisation des chiffres dans le nombre (centième). Alors qu'une unité de mesure concerne tout le nombre (centimètre).",
+        "ancestors" : [["120"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "39 D+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Comparaisons de nombres"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Associer à des objets des ordres de grandeur (par exemple taille d’un atome, d’une bactérie, d’une alvéole pulmonaire, longueur de l’intestin, capacité de stockage d’un disque dur, vitesses du son et de la lumière, populations française et mondiale, distance Terre-Lune, distance du Soleil à l’étoile la plus proche, etc.).",
+        "knowledge_small": "Ordres de grandeur négatif et entier de taille humaine",
+        "example" : "exemple : Le diamètre d'un cheveu a un ordre de grandeur de 0,1 cm.",
+        "ancestors" : [["120", "34"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "40 D+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Comparaisons de nombres"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Associer à des objets des ordres de grandeur (par exemple taille d’un atome, d’une bactérie, d’une alvéole pulmonaire, longueur de l’intestin, capacité de stockage d’un disque dur, vitesses du son et de la lumière, populations française et mondiale, distance Terre-Lune, distance du Soleil à l’étoile la plus proche, etc.).",
+        "knowledge_small": "Ordre de grandeur négatif et entièr d'un objet de taille microscopique.",
+        "example" : "exemple : Le diamètre d'un atome a un ordre de grandeur de 0,1 nanomètre.",
+        "ancestors" : [["39"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "32 D+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Vérifier la vraisemblance d’un résultat, notamment en estimant son ordre de grandeur.",
+        "knowledge_small": "Vraissemblance/ordre de grandeur d'un résultat",
+        "example" : "exemple : Si les calculs trouvent un stylo de 1,2 km de hauteur, cela n'est pas vraissemblant.",
+        "ancestors" : [["40"]]
+    },
+
+
+
+
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_2.1",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir additionner nombres décimaux positifs",
+        "knowledge_small": "addition décimaux positifs",
+        "example" : "",
+        "ancestors" : [["ens_ope_1.1"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "78 D+ +",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul posé"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Mettre en œuvre un algorithme de calcul posé pour effectuer : l’addition, la soustraction et la multiplication de nombres entiers ou décimaux ;",
+        "knowledge_small": "Poser addition décimaux positifs.",
+        "example" : "exemples : 1,23 + 4,03 = 5,26 ; 1,45 + 0,9 = 2,35.",
+        "ancestors" : [["ens_ope_2.1", "57"]]
+    },
+
+
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_2.2",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir effectuer une soustraction positive entre nombre décimaux positifs",
+        "knowledge_small": "Soustraction positive des nombres décimaux positifs",
+        "example" : "",
+        "ancestors" : [["ens_ope_1.2", "ens_ope_2.1"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "79 D+ -",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul posé"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Mettre en œuvre un algorithme de calcul posé pour effectuer : l’addition, la soustraction et la multiplication de nombres entiers ou décimaux ;",
+        "knowledge_small": "Poser soustraction positive de décimaux positifs",
+        "example" : "exemple : 1,45 - 0,9 = 0,55.",
+        "ancestors" : [["ens_ope_2.2", "57"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "80 D+ -",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul mental ou en ligne"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Connaître des procédures élémentaires de calcul, notamment : rechercher le complément à l’entier supérieur ;",
+        "knowledge_small": "Complément à l'entier supérieur",
+        "example" : "exemple : Le complément de 1,43 à l'entier supérieur est de 2 - 1,43 = 0,57",
+        "ancestors" : [["79"]]
+    },
+
+
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_2.3",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir multiplier les nombres décimaux positifs",
+        "knowledge_small": "Multiplication décimaux positifs",
+        "example" : "",
+        "ancestors" : [["ens_ope_1.3", "ens_ope_2.1"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "37 D+ x",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul mental ou en ligne"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Connaître des procédures élémentaires de calcul, notamment : multiplier ou diviser un nombre décimal par 10, par 100, par 1000 ;",
+        "knowledge_small": "Multiplier un décimal par 10, 100, ...",
+        "example" : "exemple : Multiplier le nombre décimal 1,45 par dix revient à décaler la virgule de 1 vers la droite soit au nombre 14,5.",
+        "ancestors" : [["ens_ope_2.3"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "81 D+ x",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul posé"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Mettre en œuvre un algorithme de calcul posé pour effectuer : l’addition, la soustraction et la multiplication de nombres entiers ou décimaux ;",
+        "knowledge_small": "Poser multiplication décimaux positifs",
+        "example" : "exemple : 1,43 x 2,3 = ... = 3,289",
+        "ancestors" : [["37", "62"]]
+    },
+
+
+
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_2.4",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir diviser les nombres décimaux positifs",
+        "knowledge_small": "Diviser nombres décimaux positifs",
+        "example" : "",
+        "ancestors" : [["ens_ope_2.3","ens_ope_2.2","ens_ope_1.4"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "38 D+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul mental ou en ligne"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Connaître des procédures élémentaires de calcul, notamment : multiplier ou diviser un nombre décimal par 10, par 100, par 1000 ;",
+        "knowledge_small": "Diviser un décimal par 10, 100, ...",
+        "example" : "exemple : Diviser le nombre décimal 1,45 par cent revient à décaler la virgule de 2 vers la gauche soit au nombre 0,0145.",
+        "ancestors" : [["ens_ope_2.4", "37"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "82 D+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul mental ou en ligne"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Connaître des procédures élémentaires de calcul, notamment : multiplier par 5, par 25, par 50, par 0,1, par 0,5.",
+        "knowledge_small": "Multiplier par 5, par 25, par 50, par 0,1, par 0,5",
+        "example" : "exemple : 124 x 50 = 124 : 2 x 100 = 62 x 100 = 6200",
+        "ancestors" : [["38", "81"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "84 D+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul posé"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Mettre en œuvre un algorithme de calcul posé pour effectuer : la division d’un nombre décimal (entier ou non) par un nombre entier.",
+        "knowledge_small": "Division euclidienne d'un décimal par un entier positif",
+        "example" : "",
+        "ancestors" : [["ens_ope_2.4", "64"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "87 D+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul posé"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Mettre en œuvre un algorithme de calcul posé pour effectuer : la division d’un nombre décimal (entier ou non) par un nombre entier.",
+        "knowledge_small": "Poser la division euclidienne d'un décimal par un entier positif.",
+        "example" : "exemples : 2,48 / 2 = 1,28 ; 123,45 / 5 = ... = 24,69.",
+        "ancestors" : [["84"]]
+    },
+
+
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_2.5",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir calculer la puissance d'un nombre décimal positif",
+        "knowledge_small": "Puissance nombre décimal positif",
+        "example" : "",
+        "ancestors" : [["ens_ope_2.3", "35"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "88 D+ ^",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Puissance entière et positive d’un nombre.",
+        "knowledge_small": "Puissance entière et positive de décimaux positifs",
+        "example" : "exemple : 5,3^3 = 5,3 x 5,3 x 5,3.",
+        "ancestors" : [["ens_ope_2.5"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "90 D+ ^",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Notation scientifique.",
+        "knowledge_small": "Notation scientifique",
+        "example" : "exemple : 134,67 a pour notation scientifique 1,3467 x 10².",
+        "ancestors" : [["88", "82", "37"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "33 N+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Comparaisons de nombres"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Associer à des objets des ordres de grandeur (par exemple taille d’un atome, d’une bactérie, d’une alvéole pulmonaire, longueur de l’intestin, capacité de stockage d’un disque dur, vitesses du son et de la lumière, populations française et mondiale, distance Terre-Lune, distance du Soleil à l’étoile la plus proche, etc.).",
+        "knowledge_small": "Ordres de grandeur positif et entier d'un objet de taille cosmique.",
+        "example" : "exemple : La distance moyenne de la Terre et le Soleil est d'environ 150 millions de kilomètres.",
+        "ancestors" : [["34", "90", "119"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "95 D+ ^",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Effectuer des calculs numériques simples impliquant des puissances, notamment en utilisant la notation scientifique.",
+        "knowledge_small": "Calculs avec puissance et notation scientifique",
+        "example" : "exemple : 1,214 x 10 + 2,1 x 10² = ... = 211,214.",
+        "ancestors" : [["90"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "93 D+ ^",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Effectuer des calculs numériques simples impliquant des puissances, notamment en utilisant la notation scientifique.",
+        "knowledge_small": "Calculs avec puissance de décimaux positifs",
+        "example" : "exemple : 5,3^3 = 5,3 x 5,3 x 5,3.",
+        "ancestors" : [["88"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "306 D+ ^",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Effectuer des calculs numériques simples impliquant des puissances, notamment en utilisant la notation scientifique.",
+        "knowledge_small": "Produit de puissance entière positif de même base de décimaux positifs.",
+        "example" : "exemple : 2 x 10^2 x 4,3 x 10^1 = 2 x 4,3 x 10 x 10 x 10 = 8,6 x 10^3",
+        "ancestors" : [["88"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "94 D+ ^",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "La mise en acte de produits et de quotients de puissances de même base résulte de l’application de la définition plutôt que de celle d’une formule.",
+        "knowledge_small": "Rêgles de calcul sur la puissance de puissances",
+        "example" : "exemple : (x ^ n) ^ m = x^(n x m)",
+        "ancestors" : [["93", "306"]]
+    },
+
+
+
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_2.6",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir utiliser la racine carrée d'un nombre décimal",
+        "knowledge_small": "Racine carrée nombre décimal",
+        "example" : "",
+        "ancestors" : [["88"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "91 D+ Dracine",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Nombres"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Définition de la racine carrée.",
+        "knowledge_small": "Définition racine carrée",
+        "example" : "connaissance : La racine carrée d'un nombre est un nombre positif qui, lorsqu'il est multiplié par lui-même, donne le nombre d'origine.",
+        "ancestors" : [["ens_ope_2.6"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "92 D+ racine",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Utiliser la racine carrée pour résoudre des problèmes, notamment géométriques.",
+        "knowledge_small": "Problèmes géométriques racine carrée",
+        "example" : "",
+        "ancestors" : [["91", "1263"]]
+    },
+
+
+    {"_":"####   Entiers relatifs (Z)   #####"},
+    {
+        "cycle": 3,
+        "uuid": "ens_3",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "",
+        "knowledge_small": "Les entiers relatifs",
+        "example" : "",
+        "ancestors" : [["ens_1"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "304 Z-",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Nombres"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Nombres relatifs (positifs et négatifs), notion d’opposé.",
+        "knowledge_small": "Opposé des nombres relatifs",
+        "example" : "Connaissance : Deux nombres sont dits opposés si leur somme est nulle.",
+        "ancestors" : [["58", "ens_3"]]
+    },
+
+
+
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_3.1",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir additionner les nombres entiers relatifs",
+        "knowledge_small": "Additionner nombres entiers relatifs",
+        "example" : "",
+        "ancestors" : [["ens_ope_1.1"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_3.2",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir soustraire les nombres entiers relatifs",
+        "knowledge_small": "Soustrastion nombres entiers relatifs",
+        "example" : "",
+        "ancestors" : [["ens_ope_3.1", "ens_ope_1.2"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_3.3",
+        "zone": [],
+        "category": "Connaissances",
+        "knowledge": "Savoir multiplier les nombres entiers relatifs",
+        "knowledge_small": "Multiplication nombres entiers relatifs",
+        "example" : "connaissance : a x (-b) = - a x b",
+        "ancestors" : [["ens_ope_3.1", "ens_ope_1.3"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "311 Z- x",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir multiplier les nombres entiers relatifs",
+        "knowledge_small": "Multiplication nombres entiers relatifs",
+        "example" : "exemple : 5 x (-3) = -15 ; -4 x (-3) = 12.",
+        "ancestors" : [["ens_ope_3.3"]]
+    },
+
+
+
+    {"_":"####   Rationnels positifs (Q+)   #####"},
+    {
+        "cycle": "3",
+        "uuid": "42 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Nombres"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Fractions, nombres rationnels (positifs et négatifs), notion d’inverse.",
+        "knowledge_small": "Fractions positives",
+        "example" : "connaissance : Une fraction est un nombre sous la forme a/b où a et b sont deux nombres entiers et b !=0.",
+        "ancestors" : [["36"]]
+    },
+    {
+        "cycle": "3",
+        "uuid": "44 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Connaître et utiliser quelques fractions simples comme opérateur de partage en faisant le lien entre les formulations en langage courant et leur écriture mathématique (ex : faire le lien entre « la moitié de » et multiplier par 1/2).",
+        "knowledge_small": "Langage et fractions",
+        "example" : "connaissance : Toutes fraction est de la forme a/b où a est dénommé le numérateur et b le dénominateur.",
+        "ancestors" : [["42"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "43 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Connaître et utiliser diverses désignations orales et écrites d’un nombre décimal (fractions décimales, écritures à virgule, décompositions additives et multiplicatives).",
+        "knowledge_small": "Fraction décimale",
+        "example" : "connaissance : Une fraction décimale est une fraction où le numérateur est un multiple de 10.",
+        "ancestors" : [["44", "120"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "51bis Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Comparaisons de nombres"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Connaître des égalités entre des fractions usuelles (exemples : 5/10 = 1/2 ; 10/100 = 1/10 ; 2/4 = 1/2) ",
+        "knowledge_small": "Définition de l'égalité entre fractions par produit en croix.",
+        "example" : "définition : Les fraction a/b et c/d sont égales si a * d = b * c.",
+        "ancestors" : [["44"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "51 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Connaître des égalités entre des fractions usuelles (exemples : 5/10 = 1/2 ; 10/100 = 1/10 ; 2/4 = 1/2) ",
+        "knowledge_small": "Egalité entre fractions par produit en croix.",
+        "example" : "exemples : Pour 2/3 et 4/6, on a 2*6=12 et 4*3=12 soit un même résultat. Donc 2/3 = 4/6.",
+        "ancestors" : [["51bis"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "310 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Connaître diverses désignations des fractions : orales, écrites et décompositions additives et multiplicatives (ex : quatre tiers ; 4/3 ; 1/3 + 1/3 + 1/3 + 1/3 ; 1 + 1/3 ; 4 x 1/3)",
+        "knowledge_small": "Désignation des fractions",
+        "example" : "exemple : La fraction représentant une part de cette pizza serait notée comme 1/8. Cela signifie que chaque part est un huitième de la pizza.",
+        "ancestors" : [["44"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "308 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Comprendre et utiliser les notions de divisibilité et de nombres premiers"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Simplifier une fraction.",
+        "knowledge_small": "Simplifier une fraction",
+        "example" : "exemple : 4/6 = (2 x 2)/(3 x 2) = 2/3.",
+        "ancestors" : [["310"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "96 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Comprendre et utiliser les notions de divisibilité et de nombres premiers"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Simplifier une fraction pour la rendre irréductible.",
+        "knowledge_small": "Fraction irréductible",
+        "example" : "connaissance : Une fraction est dite irréductible lorsque le numérateur et le dénominateur sont premiers entre eux.",
+        "ancestors" : [["308", "75"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "53 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Comprendre et utiliser les notions de divisibilité et de nombres premiers"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Simplifier une fraction pour la rendre irréductible.",
+        "knowledge_small": "Rendre fraction irréductible",
+        "example" : "exemple : 36/20 = (18x2) / (10x2) = 18 / 10 = 9/5.",
+        "ancestors" : [["96"]]
+    },
+
+    {
+        "cycle": 3,
+        "uuid": "48 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Connaître des égalités entre des fractions usuelles (exemples : 5/10 = 1/2 ; 10/100 = 1/10 ; 2/4 = 1/2) ",
+        "knowledge_small": "Egalité entre fractions via simplification.",
+        "example" : "exemples : Pour 10/15 et 4/6, on a 10/15 = 2x5 / 3x5 = 2/3 et 4/6 = 2x2 / 3x2 = 2/3. Donc 10/15 = 4/6.",
+        "ancestors" : [["308"]]
+    },
+
+    {
+        "cycle": 3,
+        "uuid": "111 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Comparer deux fractions de même dénominateur.",
+        "knowledge_small": "Comparer deux fractions de dénominateur différents",
+        "example" : "exemple : Pour 2/5 et 3/4, on a 2/5 = 8/20 et 3/4 = 15/20. Or 8/20 < 15/20. Donc 2/5 < 3/4.",
+        "ancestors" : [["48"]]
+    },
+
+    {
+        "cycle": 3,
+        "uuid": "46 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Utiliser des fractions pour rendre compte de partages de grandeurs ou de mesures de grandeurs. ",
+        "knowledge_small": "Fractions et grandeurs",
+        "example" : "exemple : La distance entre deux villes est de 30 km. Si tu as parcouru 3/5 de cette distance en voiture, la distance parcourue est de 3/5 x 30 = 18 mètres.",
+        "ancestors" : [["85ante"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "45 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Utiliser des fractions pour exprimer un quotient.",
+        "knowledge_small": "Quotient sous forme de fraction",
+        "example" : "exemple : Marie a partagé une pizza en 8 parts égales. Elle en a mangé 3. La fraction qui représente la quantité de pizza que Marie a mangée est de 3/8.",
+        "ancestors" : [["44"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "98 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "La mise en acte de produits et de quotients de puissances de même base résulte de l’application de la définition plutôt que de celle d’une formule.",
+        "knowledge_small": "Quotient de puissances",
+        "example" : "exemple : (2^3) / (2^4) = (2 x 2 x 2) / (2 x 2 x 2 x 2) = 1/2",
+        "ancestors" : [["45", "308", "93"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "50 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Écrire une fraction sous forme de somme d’un entier et d’une fraction inférieure à 1.",
+        "knowledge_small": "Ecrire une fraction sous forme quotient-reste",
+        "example" : "exemple : 8 / 3 = (3 x 2 + 2) / 3 = 2 + 2/3",
+        "ancestors" : [["44", "87"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "112 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Comparer deux fractions de même dénominateur.",
+        "knowledge_small": "Comparer deux fractions de dénominateur différents",
+        "example" : "exemple : Pour 2/5 et 3/4, on a 2/5 = 8/20 et 3/4 = 15/20. Or 8/20 < 15/20. Donc 2/5 < 3/4.",
+        "ancestors" : [["111", "103"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "117 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Encadrer une fraction par deux nombres entiers consécutifs. ",
+        "knowledge_small": "Encadrer une fraction",
+        "example" : "exemple : Pour la fraction 65/11, on a 5 = 55/11 < 65/11 < 66/11 = 6.",
+        "ancestors" : [["103"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "307 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Il est attendu de démontrer au moins une propriété du calcul fractionnaire en utilisant le calcul littéral et la définition du quotient.",
+        "knowledge_small": "Démontrer une propriété du calcul fractionnaire",
+        "example" : "exemple : Les fractions a/b et (a x k)/(b x k) sont égales car a x (b x k) = b x (a x k).",
+        "ancestors" : [["111", "103"]]
+    },
+
+
+
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_4.1",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir additionner les nombres rationnels positifs",
+        "knowledge_small": "addition rationnels positifs",
+        "example" : "",
+        "ancestors" : [["ens_ope_2.1"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "83 Q++",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Connaissances",
+        "knowledge": "les règles de calcul sur les les fractions, notamment la condition d’égalité de deux fractions (si ad = bc, alors a/b = c/d et réciproquement) ;",
+        "knowledge_small": "Règles de calculs additives entre fractions",
+        "example" : "exemple : a/b + c/b = (a + c)/b",
+        "ancestors" : [["ens_ope_2.1"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "49 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Calculer des fractions avec des nombres relatifs.",
+        "knowledge_small": "Calculer fractions avec relatifs",
+        "example" : "exemples : 1 + (-2)/3 = 3/3 - 2/3 = (3-2)/3 = 1/3 ; 2 x 1/3 = (2 x 1) / 3 = 2/3.",
+        "ancestors" : [["83"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "52 Q+",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Calculer des fractions avec des nombres décimaux.",
+        "knowledge_small": "Calculer fractions avec décimaux",
+        "example" : "exemples : 1,2 + 2/3 = 3,6 / 3 + 2/3 = (3,6 + 2) / 3.",
+        "ancestors" : [["49"]]
+    },
+
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_4.2",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir effectuer une soustraction positive entre les nombres rationnels positifs",
+        "knowledge_small": "Soustraction positive des nombres rationnels positifs",
+        "example" : "",
+        "ancestors" : [["ens_ope_2.2", "ens_ope_4.1"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_4.3",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir multiplier les nombres rationnels positifs",
+        "knowledge_small": "Multiplication rationnels positifs",
+        "example" : "",
+        "ancestors" : [["ens_ope_2.3", "ens_ope_4.1"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "85ante Q+ x",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "les règles de calcul sur les les fractions, notamment la condition d’égalité de deux fractions (si ad = bc, alors a/b = c/d et réciproquement) ;",
+        "knowledge_small": "Règles de calculs multiplicatives entre fractions",
+        "example" : "exemples : 4/5 de 15€ = (4 x 15) / 5 = 20/15",
+        "ancestors" : [["ens_ope_4.3"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "85 Q+ x",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "les règles de calcul sur les les fractions, notamment la condition d’égalité de deux fractions (si ad = bc, alors a/b = c/d et réciproquement) ;",
+        "knowledge_small": "Règles de calculs multiplicatives entre fractions",
+        "example" : "exemples : 1/2 x 4/5 = (1 x 4) / (2 x 5) ; 1/4 x 4/5 = 1/5 par simplfication.",
+        "ancestors" : [["85ante"]]
+    },
+
+
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_4.4",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir diviser les nombres rationnels positifs",
+        "knowledge_small": "Diviser nombres rationnels positifs",
+        "example" : "",
+        "ancestors" : [["ens_ope_2.4", "ens_ope_4.2", "ens_ope_4.3"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "56 Q+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Nombres"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Fractions, nombres rationnels (positifs et négatifs), notion d’inverse.",
+        "knowledge_small": "Inverse d'une fraction",
+        "example" : "Connaissance : L'inverse de la fraction a/b est b/a car a/b * b/a.",
+        "ancestors" : [["ens_ope_4.4"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "86 Q+ :",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "les règles de calcul sur les les fractions, notamment la condition d’égalité de deux fractions (si ad = bc, alors a/b = c/d et réciproquement) ;",
+        "knowledge_small": "Règles de calculs sur la division entre fractions",
+        "example" : "exemple : (1/4) / (7/3) = 1/4 x 3/7.",
+        "ancestors" : [["56"]]
+    },
+
+
+
+
+
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_4.5",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir calculer la puissance d'un nombre rationnel",
+        "knowledge_small": "Puissance nombre rationnel positif",
+        "example" : "",
+        "ancestors" : [["ens_ope_4.3", "ens_ope_2.5"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "89 Q+ ^",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Puissance entière et négative d’un nombre.",
+        "knowledge_small": "Puissance entière et négative d'un nombre décimal",
+        "example" : "",
+        "ancestors" : [["56", "ens_ope_4.5"]]
+    },
+
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_4.6",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir utiliser la racine carrée d'un nombre rationnel",
+        "knowledge_small": "Racine carrée nombre rationnel positif",
+        "example" : "",
+        "ancestors" : [["ens_ope_4.5", "ens_ope_2.6"]]
+    },
+
+
+
+    {"_":"####   Décimaux  (D)   #####"},
+
+    {
+        "cycle": 4,
+        "uuid": "54 D-",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Nombres"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Nombres décimaux (positifs et négatifs), notion d’opposé.",
+        "knowledge_small": "Nombres décimaux, opposé",
+        "example" : "exemples : L'opposé de 5,3 est -5,3 ; L'opposé de -5,4 est -(-5,4) soit 5,4.",
+        "ancestors" : [["304", "36"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_5.1",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir additionner nombres décimaux",
+        "knowledge_small": "addition décimaux",
+        "example" : "",
+        "ancestors" : [["ens_ope_2.1", "ens_ope_3.1"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_5.2",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir soustraire les nombres décimaux",
+        "knowledge_small": "Soustraction nombres décimaux",
+        "example" : "",
+        "ancestors" : [["ens_ope_2.2", "ens_ope_3.2", "ens_ope_5.1"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_5.3",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir multiplier les nombres décimaux",
+        "knowledge_small": "Multiplication décimaux",
+        "example" : "",
+        "ancestors" : [["ens_ope_2.3", "ens_ope_3.3", "ens_ope_5.1"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_5.4",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir diviser les nombres décimaux",
+        "knowledge_small": "Diviser nombres décimaux",
+        "example" : "",
+        "ancestors" : [["ens_ope_2.4", "ens_ope_5.2", "ens_ope_5.3"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_5.5",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir calculer la puissance des nombres décimaux",
+        "knowledge_small": "Puissance nombres décimaux",
+        "example" : "",
+        "ancestors" : [["ens_ope_2.5", "ens_ope_5.3"]]
+    },
+
+    {"_":"####   Rationnels (Q)   #####"},
+    {
+        "cycle": 3,
+        "uuid": "ens_6",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Nombres"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Fractions, nombres rationnels (positifs et négatifs), notion d’inverse.",
+        "knowledge_small": "Rationnels avec entiers négatifs",
+        "example" : "connaissance : _",
+        "ancestors" : [["48", "ens_ope_5.2"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "321 Q-",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Nombres"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Fractions, nombres rationnels (positifs et négatifs), notion d’inverse.",
+        "knowledge_small": "Propriétés rationnels avec entiers négatifs",
+        "example" : "exemples : - 3/4 = -3 / 4 = 3/ (-4) ; (-3)/(-4) = 3/4",
+        "ancestors" : [["ens_6", "112"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_6.1",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir additionner nombres rationnels",
+        "knowledge_small": "addition rationnels",
+        "example" : "",
+        "ancestors" : [["ens_ope_4.1", "ens_ope_5.1"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_6.2",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir soustraire les nombres rationnels",
+        "knowledge_small": "Soustraction nombres rationnels",
+        "example" : "",
+        "ancestors" : [["ens_ope_4.2", "ens_ope_5.2", "ens_ope_6.1"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_6.3",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir multiplier les nombres rationnels",
+        "knowledge_small": "Multiplication rationnels",
+        "example" : "",
+        "ancestors" : [["ens_ope_4.2", "ens_ope_5.2", "ens_ope_6.1"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_6.4",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir diviser les nombres rationnels",
+        "knowledge_small": "Diviser nombres rationnels",
+        "example" : "",
+        "ancestors" : [["ens_ope_4.4", "ens_ope_5.4", "ens_ope_6.2", "ens_ope_6.3"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "ens_ope_6.5",
+        "zone": [],
+        "category": "Compétences associées",
+        "knowledge": "Savoir calculer la puissance des nombres rationnels",
+        "knowledge_small": "Puissance nombres rationnels",
+        "example" : "",
+        "ancestors" : [["ens_ope_2.5", "ens_ope_4.5", "ens_ope_6.4"]]
+    },
+
+
+
+
+
+
+    {   "_": "######################################################################      REPERAGE SUR UNE DROITE UN PLAN OU DANS L ESPACE    #########################################################################",
+        "zone": [
+            "Espace et géométrie",
+            "Représenter l'espace"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "(Se) repérer sur une droite graduée, dans le plan muni d'un repère orthogonal, dans un parallélépipède rectangle, sur une sphère."
+    },
+
+
+    {
+        "cycle": 3,
+        "uuid": "102 N+",
+        "zone": [[
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+            ],
+            [
+            "Espace et géométrie",
+            "Représenter l'espace",
+            "droite graduée"
+            ]],
+        "category": "Compétences associées",
+        "knowledge": "Placer des grands nombres entiers positifs sur une demi-droite graduée adaptée.",
+        "knowledge_small": "Placer des grands entiers positifs sur une demi-droite",
+        "example" : "exemple : Sur 100----200----300, le nombre 140 est localisé 100-140--200-----300.",
+        "ancestors" : [["ens_1"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "303 Z-",
+        "zone": [[
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+            ],
+            [
+            "Espace et géométrie",
+            "Représenter l'espace",
+            "droite graduée"
+            ]],
+        "category": "Compétences associées",
+        "knowledge": "Repérer et placer un nombre relatif sur une droite graduée.",
+        "knowledge_small": "Nombre relatif droite graduée",
+        "example" : "exemple : Sur la droite ..........1.2, nous pouvons placer -2 à l'emplacement ...-2.....1.2..",
+        "ancestors" : [["304", "102"]]
+    },
+
+    {
+        "cycle": 3,
+        "uuid": "104 D+",
+        "zone": [[
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+            ],
+            [
+            "Espace et géométrie",
+            "Représenter l'espace",
+            "droite graduée"
+            ]],
+        "category": "Compétences associées",
+        "knowledge": "Repérer et placer un nombre décimal sur une demi-droite graduée adaptée. ",
+        "knowledge_small": "Repérer un décimal sur une demi-droite",
+        "example" : "exemple : La valeur de A sur la droite 1,2----1,3--A-1,4 est 1,36.",
+        "ancestors" : [["36", "102"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "105 D+",
+        "zone": [[
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+            ],
+            [
+            "Espace et géométrie",
+            "Représenter l'espace",
+            "droite graduée"
+            ]],
+        "category": "Compétences associées",
+        "knowledge": "Repérer et placer un nombre décimal sur une demi-droite graduée adaptée. ",
+        "knowledge_small": "Placer un décimal sur une demi-droite",
+        "example" : "exemple : Sur la droite 1,2----1,3----1,4 , A=1,36 peut se placer 1,2----1,3--A-1,4.",
+        "ancestors" : [["104", "102"]]
+    },
+
+    {
+        "cycle": 3,
+        "uuid": "106 Q+",
+        "zone": [[
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+            ],
+            [
+            "Espace et géométrie",
+            "Représenter l'espace",
+            "droite graduée"
+            ]],
+        "category": "Compétences associées",
+        "knowledge": "Repérer et placer des fractions sur une demi-droite graduée adaptée.",
+        "knowledge_small": "Repérer une fraction sur demi-droite",
+        "example" : "exemple : La valeur de A sur la droite 5/3----10/3--A-15/3 est 13/3.",
+        "ancestors" : [["50", "104"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "103 Q+",
+        "zone": [[
+            "Nombres et calculs",
+            "Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux"
+            ],
+            [
+            "Espace et géométrie",
+            "Représenter l'espace",
+            "droite graduée"
+            ]],
+        "category": "Compétences associées",
+        "knowledge": "Repérer et placer des fractions sur une demi-droite graduée adaptée.",
+        "knowledge_small": "Placer une fractions sur demi-droite",
+        "example" : "exemple : Sur la droite 5/3----10/3----15/3, A=13/3 se place 5/3----10/3--A-15/3.",
+        "ancestors" : [["106", "105"]]
+    },
+
+
+
+    {
+        "cycle": 3,
+        "uuid": "1054",
+        "zone": [
+            "Résoudre des problèmes en utilisant des fractions, des nombres décimaux et le calcul",
+            "Organisation et gestion de données"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Lire ou construire des représentations de données : graphiques cartésiens.",
+        "knowledge_small": "Lire ou construire des graphiques",
+        "example": "",
+        "ancestors": []
+    },
+    {
+        "cycle": 4,
+        "uuid": "330",
+        "zone": [
+            "Espace et géométrie",
+            "Représenter l'espace",
+            "Repère orthogonal"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Abscisse, ordonnée.",
+        "knowledge_small": "Abscisse, ordonnée",
+        "example": "",
+        "ancestors": [["104", "105", "1054"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "331",
+        "zone": [
+            "Espace et géométrie",
+            "Représenter l'espace",
+            "Repère orthogonal"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Repérer et placer des points dans un repère orthogonal.",
+        "knowledge_small": "Repérer des points dans un repère orthogonal.",
+        "example": "",
+        "ancestors": [["330"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "332",
+        "zone": [
+            "Espace et géométrie",
+            "Représenter l'espace",
+            "Repère orthogonal"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Repérer et placer des points dans un repère orthogonal.",
+        "knowledge_small": "Placer des points dans un repère orthogonal.",
+        "example": "",
+        "ancestors": [["331"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1228",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser la notion de fonction"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Modéliser un phénomène continu par une fonction.",
+        "knowledge_small": "Modéliser un phénomène continu par une fonction",
+        "example": "",
+        "ancestors": [["332", "1219"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1225bis",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser la notion de fonction"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Déterminer, à partir d'un mode de représentation, l'image ou un antécédent d'un nombre par une fonction.",
+        "knowledge_small": "Déterminer image/antécédant graphiquement",
+        "example": "",
+        "ancestors": [["1220", "1228"]]
+    },
+
+
+    {
+        "cycle": 4,
+        "uuid": "333",
+        "zone": [
+            "Espace et géométrie",
+            "Représenter l'espace",
+            "Parallélépipède rectangle"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Abscisse, ordonnée, altitude.",
+        "knowledge_small": "Abscisse, ordonnée, altitude",
+        "example": "",
+        "ancestors": [["330"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "334",
+        "zone": [
+            "Espace et géométrie",
+            "Représenter l'espace",
+            "Parallélépipède rectangle"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Repérer et placer des points dans un parallélépipède rectangle.",
+        "knowledge_small": "Repérer des points dans un parallélépipède rectangle.",
+        "example": "",
+        "ancestors": [["333"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "335",
+        "zone": [
+            "Espace et géométrie",
+            "Représenter l'espace",
+            "Parallélépipède rectangle"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Repérer et placer des points dans un parallélépipède rectangle.",
+        "knowledge_small": "Placer des points dans un parallélépipède rectangle.",
+        "example": "",
+        "ancestors": [["334", "331"]]
+    },
+
+
+    {
+        "cycle": 4,
+        "uuid": "336",
+        "zone": [
+            "Espace et géométrie",
+            "Représenter l'espace",
+            "Sphère"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Latitude, longitude.",
+        "knowledge_small": "Latitude, longitude",
+        "example": "",
+        "ancestors": [["331"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "337",
+        "zone": [
+            "Espace et géométrie",
+            "Représenter l'espace",
+            "Sphère"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Repérer et placer des points sur une sphère.",
+        "knowledge_small": "Repérer des points sur une sphère.",
+        "example": "",
+        "ancestors": [["336"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "338",
+        "zone": [
+            "Espace et géométrie",
+            "Représenter l'espace",
+            "Sphère"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Repérer et placer des points sur une sphère.",
+        "knowledge_small": "Placer des points sur une sphère.",
+        "example": "",
+        "ancestors": [["337", "335"]]
+    },
+
+
+
+    {   "_": "####################################################################   ALGEBRE : LES INCONNUES  ######################################################################"},
+
+
+
+    {
+        "cycle": 4,
+        "uuid": "1172",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Notions d'inconnue, d'équation, d'indéterminée, d'identité.",
+        "knowledge_small": "Notions d'inconnue",
+        "example": "connaissance : Dans la formule 2 x x = 4, x définit une inconnue.",
+        "ancestors": [["81", "84"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1185",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "les conventions d'écritures du calcul littéral ;",
+        "knowledge_small": "Conventions écriture calcul littéral",
+        "example": "",
+        "ancestors": [["1172"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1179ante",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Développer, réduire et ordonner des expressions algébriques dans des cas très simples.",
+        "knowledge_small": "Réduire et ordonner des expressions algébriques",
+        "example": "exemple : x + 2 + x² + 2x = 3x + 2 = x² = x² + 3x + 2",
+        "ancestors": [["1185"]]
+    },
+
+    {
+        "cycle": 4,
+        "uuid": "1179",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Utiliser le calcul littéral pour traduire une propriété générale (par exemple la distributivité simple), pour démontrer un résultat général (par exemple que la somme de trois entiersconsécutifs est un multiple de trois), pour valider ou réfuter une conjecture, pour modéliser une situation.",
+        "knowledge_small": "calcul littéral sur une propriété générale",
+        "example": "exemple : La somme de 3 entiers consécutifs est un multiple de 3 car : x + (x+1) + (x+2) = 3(x+1) étant un multiple de 3.",
+        "ancestors": [["1179ante"]]
+    },
+
+    {
+        "cycle": 4,
+        "uuid": "1186",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Propriétés de distributivité simple.",
+        "knowledge_small": "Propriétés de distributivité simple",
+        "example": "connaissance : a x ( b + c ) = a x b + a x c",
+        "ancestors": [["1179"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1173",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "les formules de distributivité simple ;",
+        "knowledge_small": "Formules distributivité simple",
+        "example": "exemple : 3(x - 2) = 3 x x - 3 x 2",
+        "ancestors": [["1186"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1187",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Propriétés de distributivité double.",
+        "knowledge_small": "Propriétés de distributivité double",
+        "example": "connaissance : ( a + b ) x ( c + d ) = ac + ad + bc + bd",
+        "ancestors": [["1173"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1174",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "les formules de distributivité double ;",
+        "knowledge_small": "Formule distributivité double",
+        "example": "exemple : (3 +x)(2 + y) = 3 x 2 + 3 x y + x x 2 + x x y",
+        "ancestors": [["1187"]]
+    },
+
+
+    {
+        "cycle": 4,
+        "uuid": "1188",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "l'identité a² - b² = (a - b)(a + b) ;",
+        "knowledge_small": "Identité a²-b² = (a - b)(a + b)",
+        "example": "exemple : (3 + x)² - 2² = [(3+x) - 2][(3 + x) + 2]",
+        "ancestors": [["1174"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1176",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Factorisation de a²-b².",
+        "knowledge_small": "Factorisation a²-b²",
+        "example": "connaissance : a²-b² = ( a + b )( a - b )",
+        "ancestors": [["1188"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1178",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "factoriser et réduire des expressions algébriques dans des cas très simples.",
+        "knowledge_small": "Factoriser et réduire des expressions algébriques",
+        "example": "exemple : x(5x + 3) + x(3x + 1) = x[(5x + 3) + (3x + 1)] = x(8x + 4)",
+        "ancestors": [["1174"]]
+    },
+
+
+
+
+    {   "_": "####################################################################   ALGEBRE : LES EQUATIONS  ######################################################################"},
+
+
+
+
+    {
+        "cycle": 4,
+        "uuid": "1319",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Connaissances",
+        "knowledge": "",
+        "knowledge_small": "Notion d'équation, d'indéterminée, d'identité",
+        "example": "",
+        "ancestors": [["1179"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1175",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Annulation d'un produit (démonstration possible par disjonction de cas).",
+        "knowledge_small": "Annulation produit",
+        "example": "connaissance : Le produit a x b s'annule si a = 0 ou b = 0",
+        "ancestors": [["1319"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1180",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Mettre un problème en équation en vue de sa résolution.",
+        "knowledge_small": "Mise en équation",
+        "example": "exemple : Tony et Marie veulent manger toute une tarte aux pommes mais Marie désire en manger 2 fois plus que Tony. Comment séparer le gâteau ?",
+        "ancestors": [["1319"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1189",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "les procédures de résolution d'équations du type ax = b et a + x = b.",
+        "knowledge_small": "Equations ax = b et a + x = b",
+        "example": "exemple : 2x = 3 <=> x = 3/2 <=> x = 1 ; 2 + x = 3 <=> x = 3 - 2 <=> x = 1",
+        "ancestors": [["1175", "1180"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1182",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "les procédures de résolution d'un système d'équations à deux inconnues.",
+        "knowledge_small": "Système d'équation à deux inconnues.",
+        "example": "exemple : Si 2x + y = 3 et x + y = 2, ..., x = 1 et y = 1",
+        "ancestors": [["1175", "1180"]]
+    },
+
+    {
+        "cycle": 4,
+        "uuid": "1181",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Résoudre algébriquement des équations se ramenants au premier degré ou s'y ramenant.",
+        "knowledge_small": "Equations du premier degré ou s'y ramenants",
+        "example": "exemple : (x + 1)(2 - x) = 0 <=> x + 1 = 0 ou 2 - x = 0 <=> x = -1 ou x = 2 ; x² - 5 = 0 <=> x² = 5 <=> x = racine(5) ou x = - racine(5)",
+        "ancestors": [["1189"]]
+    },
+
+
+
+
+    {   "_": "####################################################################   ALGEBRE : DANS UN TRIANGLE  ######################################################################"},
+
+
+
+    {
+        "cycle": 4,
+        "uuid": "1262",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Le théorème de Pythagore (hypoténuse).",
+        "knowledge_small": "Théorème Pythagore (hypothénuse)",
+        "example": "",
+        "ancestors": [["91", "1100d"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1263",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Le théorème de Pythagore (côtés adjacent).",
+        "knowledge_small": "Théorème Pythagore (côtés adjacent)",
+        "example": "",
+        "ancestors": [["1262", "1189"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1264",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Connaissances",
+        "knowledge": "La réciproque du théorème de Pythagore.",
+        "knowledge_small": "Théorème Pythagore (réciproque)",
+        "example": "",
+        "ancestors": [["88", "1100d"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1265",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Lignes trigonométriques dans le triangle rectangle : cosinus, sinus, tangente.",
+        "knowledge_small": "Triangle rectangle (trigonométrie)",
+        "example": "",
+        "ancestors": [["1100d", "51", "1221"]]
+    },
+
+
+
+    {
+        "cycle": 4,
+        "uuid": "1260",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Le théorème de Thalès (configurations des triangles emboîtés et du papillon).",
+        "knowledge_small": "Théorème thalès",
+        "example": "",
+        "ancestors": [["52", "1116", "1258", "1189", "51"], ["___ajout a la première condition 'notion de triangles'_____"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1261",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Connaissances",
+        "knowledge": "La réciproque du théorèmede Thalès.",
+        "knowledge_small": "Théorème thalès (réciproque)",
+        "example": "",
+        "ancestors": [["1260", "1258"]]
+    },
+
+
+
+
+
+    {   "_": "####################################################################   GEOMETRIE : DROITE - POINTS  ######################################################################"},
+
+
+
+    {
+        "cycle": 3,
+        "uuid": "1112",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Relations de perpendicularité et de parallélisme"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Savoir : Alignement, appartenance.",
+        "knowledge_small": "Savoir : Alignement, appartenance",
+        "example": "connaissance : Trois points sont dits alignés si une droite passe par ces trois points.",
+        "ancestors": []
+    },
+
+    {
+        "cycle": 3,
+        "uuid": "1118",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Relations de perpendicularité et de parallélisme"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Déterminer avec la règle la distance entre deux points",
+        "knowledge_small": "Distance entre deux points à la rêgle.",
+        "example": "exemple : Avec la rêgle graduée ... .",
+        "ancestors": []
+    },
+    {
+        "cycle": 3,
+        "uuid": "1113",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Relations de perpendicularité et de parallélisme"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Savoir : Segment de droite.",
+        "knowledge_small": "Savoir : Segment de droite",
+        "example": "connaissance : Un segment de droite est un segment dont les deux extrémités appartiennent à la droite.",
+        "ancestors": [["1112", "1118"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1114",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Relations de perpendicularité et de parallélisme"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Savoir : Perpendicularité, parallélisme.",
+        "knowledge_small": "Savoir : Perpendicularité, parallélisme",
+        "example": "connaissance : Deux droites sont dites perpendiculaires si elles se croisent en formant un angle droit.",
+        "ancestors": [["1113"]]
+    },
+
+    {
+        "cycle": 3,
+        "uuid": "1125",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Symétrie axiale"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Construire le symétrique d'un point, d'un segment, d'une droite par rapport à un axe donné. ",
+        "knowledge_small": "Symétrique point/segment/droite par rapport à un axe",
+        "example": "exemple : Placez le point A sur un côté de l'axe vertical. Tracez un segment perpendiculaire à cet axe à partir du point A, aboutissant au point A' de l'autre côté, assurant la symétrie par rapport à l'axe vertical.",
+        "ancestors": [["1114"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1116",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Relations de perpendicularité et de parallélisme"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Tracer avec la règle et l'équerre la droite parallèle à une droite donnée passant par un point donné.",
+        "knowledge_small": "Tracer droite parallèle",
+        "example": "exemple : avec l'équerre et la rêgle, ... .",
+        "ancestors": [["1114"]]
+    },
+
+    {
+        "cycle": 3,
+        "uuid": "1115",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Relations de perpendicularité et de parallélisme"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Tracer avec l'équerre la droite perpendiculaire à une droite donnée passant par un point donné.",
+        "knowledge_small": "Tracer droite perpendiculaire",
+        "example": "exemple : Avec l'équerre, je place un côté le long de la droite puis ... .",
+        "ancestors": [["1114"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1117",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Relations de perpendicularité et de parallélisme"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Déterminer le plus court chemin entre un point et une droite.",
+        "knowledge_small": "Court chemin droite-point",
+        "example": "exemple : Avec l'equerre, je trace ... .",
+        "ancestors": [["1115"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1119",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Relations de perpendicularité et de parallélisme"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Déterminer le plus court chemin entre un point et une droite.",
+        "knowledge_small": "Distance droite-point",
+        "example": "exemple : Avec l'equerre, je trace ... .",
+        "ancestors": [["1117"]]
+    },
+
+
+
+    {   "_": "####################################################################   GEOMETRIE : TRIANGLES  ######################################################################"},
+
+    {
+        "cycle": 3,
+        "uuid": "1100a",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître, nommer, décrire, reproduire, représenter, construire quelques solides et figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Reconnaître, nommer des figures simples : triangles, dont les triangles particuliers (triangle rectangle, triangle isocèle, triangle équilatéral);",
+        "knowledge_small": "Connaitre triangles",
+        "example": "Connaissance : Un triangle est une forme géométrique avec 3 côtés segmentés.",
+        "ancestors": []
+    },
+    {
+        "cycle": 3,
+        "uuid": "1100c",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître, nommer, décrire, reproduire, représenter, construire quelques solides et figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Reconnaître, nommer des figures simples : triangles, dont les triangles particuliers (triangle rectangle, triangle isocèle, triangle équilatéral);",
+        "knowledge_small": "Connaitre les catégories de triangles",
+        "example": "Connaissance : Un triangle isocèle est un triangle ayant deux côtés de même longueur.",
+        "ancestors": [["1100a"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1100d",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître, nommer, décrire, reproduire, représenter, construire quelques solides et figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Reconnaître, nommer des figures simples : triangles, dont les triangles particuliers (triangle rectangle, triangle isocèle, triangle équilatéral);",
+        "knowledge_small": "Nommer catégories de triangle",
+        "example": "exemple : Le triangle présent est à vue d'oeil un triangle isocèle.",
+        "ancestors": [["1100c"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1122",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Symétrie axiale"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Médiatrice d'un segment : définition : droite perpendiculaire au segment en son milieu ;",
+        "knowledge_small": "Médiatrice d'un segment (définition)",
+        "example": "connaissance : La médiatrice d'un segment est une droite perpendiculaire au segment, passant par son milieu, divisant le segment en deux parties égales.",
+        "ancestors": [["1115"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1123",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Symétrie axiale"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Médiatrice d'un segment : caractérisation : ensemble des points équidistants des extrémités du segment.",
+        "knowledge_small": "Médiatrice d'un segment (propriété)",
+        "example": "connaissance : La médiatrice d'un segment est une droite perpendiculaire passant par son milieu, équidistante des extrémités, et constitue le centre du cercle circonscrit.",
+        "ancestors": [["1122"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1184",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Triangle : médiatrices ;",
+        "knowledge_small": "Triangle : médiatrices",
+        "example": "",
+        "ancestors": [["1123"], ["___ on admet connaitre la définition d'un triangle sur la première condition ____"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1255",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Triangle : médiatrices ;",
+        "knowledge_small": "Triangle : médiatrices",
+        "example": "",
+        "ancestors": [["1123", "1184", "1100a"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1127",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Symétrie axiale"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Construire la médiatrice d'un segment avec un compas et une règle.",
+        "knowledge_small": "Construire médiatrice d'un segment",
+        "example": "exemple : Avec un compas, je trace un cercle de même rayon autour des deux côtés du segment, la médiatrice est la droite passant par les deux intersection entre les cercles.",
+        "ancestors": [["1255"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1253",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Triangle : somme des angles d'un triangle (démonstration possible en utilisant les angles correspondants) ;",
+        "knowledge_small": "Triangle somme angles",
+        "example": "",
+        "ancestors": [["1115", "1100d", "1084a"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1254",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Triangle : hauteurs ;",
+        "knowledge_small": "Triangle : hauteurs",
+        "example": "",
+        "ancestors": [["1115", "1100d"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1259",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Parallélogramme (une définition et une propriété caractéristique).",
+        "knowledge_small": "Parallélogramme définition/propriétés",
+        "example": "",
+        "ancestors": [["1115", "1100d", "1084a"]]
+    },
+
+
+
+    {   "_": "####################################################################   FONCTIONS GEOMETRIQUES  ######################################################################"},
+
+
+
+    {
+        "cycle": 3,
+        "uuid": "1120",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Symétrie axiale"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Savoir : Figure symétrique, axe de symétrie d'une figure, figures symétriques par rapport à un axe.",
+        "knowledge_small": "Figure symétrique, axe de symétrie d'une figure, figures symétriques par rapport à un axe",
+        "example": "connaissance : Connaître une méthode afin de tracer le symétrique d'une figure par rapport à une droite.",
+        "ancestors": [["1127", "1253", "1254"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1124",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Symétrie axiale"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Compléter une figure par symétrie axiale.",
+        "knowledge_small": "Compléter une figure par symétrie axiale",
+        "example": "exemple : Complétez la figure par symétrie axiale par rapport à l'axe donné, en plaçant les points manquants de manière à respecter la symétrie et en conservant les distances et les angles.",
+        "ancestors": [["1120"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1126",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Symétrie axiale"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Construire la figure symétrique d'une figure donnée par rapport à un axe donné.",
+        "knowledge_small": "Symétrique figure par rapport à un axe",
+        "example": "exemple : Sur une feuille avec une figure et un axe, construire le symétrique de la figure par rapport à un axe.",
+        "ancestors": [["1124"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1121",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Symétrie axiale"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Savoir : Propriétés de conservation de la symétrie axiale.",
+        "knowledge_small": "Symétrie axiale : propriétés de conservation",
+        "example": "connaissance : Par la symétrie axiale, les objets conservent leurs formes et leurs dimensions lorsqu'ils sont réfléchis de part et d'autre d'un axe central, avec des propriétés telles que les longueurs, les angles et la position relative restant inchangées.",
+        "ancestors": [["1126"]]
+    },
+
+
+
+    {
+        "cycle": 4,
+        "uuid": "1266",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Mettre en oeuvre ou écrire un protocole de construction d'une figure géométrique.",
+        "knowledge_small": "Appliquer/ecrire un protocole de construction d'une figure géométrique",
+        "example": "",
+        "ancestors": [["1127", "1253", "1254"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1257",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Triangle : cas d'égalité des triangles ;",
+        "knowledge_small": "Egalité des triangles",
+        "example": "",
+        "ancestors": [["1127", "1253", "1254"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1267",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Faire le lien entre les cas d'égalité des triangles et la construction d'un triangle à partir de la donnée de longueurs des côtés et/ou de mesures d'angles.",
+        "knowledge_small": "Egalité/construction des triangles suivant : longueurs des côtés et/ou mesures d'angles",
+        "example": "",
+        "ancestors": [["1266", "1257"]]
+    },
+
+
+    {
+        "cycle": 4,
+        "uuid": "1258",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Triangle : triangles semblables (une définition et une propriété caractéristique).",
+        "knowledge_small": "Triangles semblables",
+        "example": "",
+        "ancestors": [["1127", "1253", "1254"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1252",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Caractérisation angulaire du parallélisme : angles alternes internes, angles correspondants.",
+        "knowledge_small": "Caractérisation angulaire du parallélisme : angles alternes internes, angles correspondants",
+        "example": "",
+        "ancestors": [["1258"]]
+    },
+
+    {
+        "cycle": 4,
+        "uuid": "1256",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Triangle : inégalité triangulaire ;",
+        "knowledge_small": "Inégalité triangulaire",
+        "example": "",
+        "ancestors": [["1127", "1253", "1254"]]
+    },
+
+
+
+    {
+        "cycle": 4,
+        "uuid": "1251",
+        "zone": [
+            "Espace et géométrie",
+            "Représenter l'espace"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Utiliser un logiciel de géométrie dynamique pour représenter des solides.",
+        "knowledge_small": "Utiliser logiciel de géométrie dynamique",
+        "example": "",
+        "ancestors": [["1121", "1120"]]
+    },
+
+
+    {
+        "cycle": 4,
+        "uuid": "1243",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comprendre l'effet de quelques transformations sur les figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Utiliser des transformations pour calculer des grandeurs géométriques.",
+        "knowledge_small": "Transformations et grandeurs géométriques",
+        "example": "",
+        "ancestors": [["1121", "1120"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1268",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Comprendre l'effet d'une translation, d'une symétrie (axiale et centrale), d'une rotation, d'une homothétie sur une figure.",
+        "knowledge_small": "Comprendre effet sur une figure concernant translation/symétrie/rotation/homothétie",
+        "example": "",
+        "ancestors": [["1243"]]
+    },
+
+    {
+        "cycle": 4,
+        "uuid": "1240",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comprendre l'effet de quelques transformations sur les figures géométriques"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Effet d'un déplacement, d'un agrandissement ou d'une réduction sur les longueurs, les angles, les aires et les volumes.",
+        "knowledge_small": "Effet déplacement/agrandissement/réduction sur longueurs/angles/aires/volumes",
+        "example": "",
+        "ancestors": [["1268", "1067"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1241",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comprendre l'effet de quelques transformations sur les figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Utiliser un rapport de réduction ou d'agrandissement (architecture, maquettes) pour calculer des longueurs, des aires, des volumes.",
+        "knowledge_small": "Rapport réduction/agrandissement pour longueurs/aires/volumes",
+        "example": "",
+        "ancestors": [["1240"]]
+    },
+
+    {
+        "cycle": 3,
+        "uuid": "1129",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Proportionnalité"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Agrandissement ou réduction d'une figure.",
+        "knowledge_small": "Agrandir/réduire figure",
+        "example": "exemple : Agrandir la figure par géométrie en utilisant un point de référence permettant de construire la nouvelle figure",
+        "ancestors": [["1268", "1267"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1128",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître et utiliser quelques relations géométriques",
+            "Proportionnalité"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Reproduire une figure en respectant une échelle donnée.",
+        "knowledge_small": "Reproduire figure (échelle)",
+        "example": "exemple : Pour reproduire un carré de côté 4 cm à l'échelle 1/4, je construis un carré de côté 4 x 1/4 = 1 cm",
+        "ancestors": [["1129"]]
+    },
+
+
+    {
+        "cycle": 4,
+        "uuid": "1269",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Mobiliser les connaissances des figures, des configurations et des transformations au programme pour déterminer des grandeurs géométriques.",
+        "knowledge_small": "Mobiliser les connaissances des figures, des configurations et des transformations au programme pour déterminer des grandeurs géométriques",
+        "example": "",
+        "ancestors": [["1268"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1270",
+        "zone": [
+            "Espace et géométrie",
+            "Utiliser les notions de géométrie plane pour démontrer"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Mener des raisonnements et s'initier à la démonstration en utilisant les propriétés des figures, des configurations et des transformations.",
+        "knowledge_small": "Raisonner/démontrer en utilisant transformations/configurations/propriétés des figures",
+        "example": "",
+        "ancestors": [["1269"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1244",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comprendre l'effet de quelques transformations sur les figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Faire le lien entre la proportionnalité et certaines configurations ou transformations géométriques (agrandissement réduction, triangles semblables, homothéties).",
+        "knowledge_small": "Lien proportionnalité et configurations/transformations géométriques ",
+        "example": "",
+        "ancestors": [["1268", "1056post"]]
+    },
+
+
+    {   "_": "####################################################################   RECEUIL ET ORGANISATION DES DONNEES  ######################################################################"},
+
+    {
+        "cycle": 4,
+        "uuid": "1196",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Interpréter, représenter et traiter des données"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Lire et interpréter des données sous forme de données brutes, de tableau, de diagramme (diagramme en bâtons, diagramme circulaire, histogramme).",
+        "knowledge_small": "Lire/interpréter des données sous forme de données brutes, de tableau, de diagramme",
+        "example": "",
+        "ancestors": []
+    },
+    {
+        "cycle": 3,
+        "uuid": "1051",
+        "zone": [
+            "Résoudre des problèmes en utilisant des fractions, des nombres décimaux et le calcul",
+            "Organisation et gestion de données"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Prélever des données numériques à partir de supports variés.",
+        "knowledge_small": "Prélever des données numériques à partir de supports variés",
+        "example": "",
+        "ancestors": [["1196"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1197",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Interpréter, représenter et traiter des données"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Utiliser un tableur-grapheur pour présenter des données sous la forme d'un tableau ou d'un diagramme.",
+        "knowledge_small": "Tableur-grapheur pour présenter données sous la forme tableau/diagramme",
+        "example": "",
+        "ancestors": [["1051"]]
+    },
+
+
+    {   "_": "####################################################################   NOTION D ANGLE  ######################################################################"},
+
+    {
+        "cycle": 3,
+        "uuid": "1075",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Angles"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Notion d'angle.",
+        "knowledge_small": "Définition angle",
+        "example": "connaissance : Un angle est la mesure de l'écart entre deux demi-droites partant d'un même point, appelé le sommet de l'angle",
+        "ancestors": []
+    },
+    {
+        "cycle": 3,
+        "uuid": "1076",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Angles"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Lexique associé aux angles : angle droit, aigu, obtus.",
+        "knowledge_small": "Lexique angle (droit, aigu, obtu)",
+        "example": "connaissance : Un angle droit est un angle mesurant 90°.",
+        "ancestors": [["1078"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1078",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Angles"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Identifier des angles dans une figure géométrique.",
+        "knowledge_small": "Identifier angles d'une figure",
+        "example": "exemple : Pour la figure présente sur la feuille, je constate qu'il y a 6 angles.",
+        "ancestors": [["1075"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1082",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Angles"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Estimer qu'un angle est droit, aigu ou obtus.",
+        "knowledge_small": "Estimer catégorie d'un angle (visuellement)",
+        "example": "exemple : Visuellement parlant, j'estime que l'angle est obtu.",
+        "ancestors": [["1076"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1082",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Angles"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Utiliser l'équerre pour vérifier qu'un angle est droit, aigu ou obtus, ou pour construire un angle droit.",
+        "knowledge_small": "Estimer catégorie d'un angle (équerre)",
+        "example": "exemple : En plaçant l'équerre, j'estime que l'angle est aigu.",
+        "ancestors": [["1082"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1079",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Angles"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Comparer des angles, en ayant ou non recours à leur mesure (par superposition, avec un calque).",
+        "knowledge_small": "Comparer angles (Calque)",
+        "example": "exemple : Je calque le premier angle, puis en plaçant le calque sur le deuxième angle avec un côté en commun, je constate que le premier angle est plus grand que le deuxième.",
+        "ancestors": [["1075"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1080",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Angles"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Reproduire un angle donné en utilisant un gabarit.",
+        "knowledge_small": "Reproduire un angle (gabarit)",
+        "example": "exemple : Dans un premier temps, je crée un gabarit de l'angle présent. Puis, je place le gabarit sur le segment oû reproduire l'angle et je complète.",
+        "ancestors": [["1079"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1083",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Angles"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Utiliser le rapporteur pour déterminer la mesure en degré d'un angle ;",
+        "knowledge_small": "Mesure d'un angle (rapporteur)",
+        "example": "exemple : Sur une feuille et via un rapporteur, la mesure de l'angle ABC est de 32°.",
+        "ancestors": [["1082"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1084a",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Angles"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Utiliser le rapporteur pour construire un angle de mesure donnée en degrés.",
+        "knowledge_small": "Construire un angle (rapporteur)",
+        "example": "exemple : En plaçant le centre du rapporteur sur l'angle et le segment sur 0°, je place un point pour tracer dune droite afin d'avoir un angle de 20°",
+        "ancestors": [["1080", "1082"]]
+    },
+
+    {
+        "cycle": 3,
+        "uuid": "1084b",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Angles"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Comparer des angles, en ayant ou non recours à leur mesure (par superposition, avec un calque).",
+        "knowledge_small": "Comparer angles (rapporteur)",
+        "example": "exemple : En mesurant les angles A et B où A = 37° et B = 48°, on peut conclure que l'angle A est plus petit que l'angle B.",
+        "ancestors": [["1083", "1080"]]
+    },
+
+
+
+
+    {   "_": "####################################################################   FIGURES GEOMETRIQUES DU PLAN ######################################################################"},
+
+    {
+        "cycle": 3,
+        "uuid": "1101",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître, nommer, décrire, reproduire, représenter, construire quelques solides et figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Reconnaître, nommer des figures simples : quadrilatères, dont les quadrilatères particuliers (carré, rectangle, losange, première approche du parallélogramme) ;",
+        "knowledge_small": "Nommer catégories de quadrilatères",
+        "example": "exemple : le quadrilatère semble être un losange.",
+        "ancestors": []
+    },
+    {
+        "cycle": 3,
+        "uuid": "1102",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître, nommer, décrire, reproduire, représenter, construire quelques solides et figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Reconnaître, nommer des figures simples : cercle (comme ensemble des points situés à une distance donnée d'un point donné),disque.",
+        "knowledge_small": "Nommer cercle, disque",
+        "example": "exemple : Les personnes à 5 mètres de Tony se situent sur le cercle de rayon 5 où Tony en est le centre.",
+        "ancestors": []
+    },
+    {
+        "cycle": 3,
+        "uuid": "1104",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître, nommer, décrire, reproduire, représenter, construire quelques solides et figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Décrire des figures simples : côté, sommet, angle, diagonale, polygone, centre, rayon, diamètre, milieu, hauteur solide, face, arète.",
+        "knowledge_small": "Décrire figures simples",
+        "example": "exemple : La figure simple présente sous forme de carré se compose de 4 côtés, de 4 angles.",
+        "ancestors": [["1101", "1102"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1108",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître, nommer, décrire, reproduire, représenter, construire quelques solides et figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Compléter un programme de construction d'une figure plane.",
+        "knowledge_small": "Compléter figure plane",
+        "example": "",
+        "ancestors": [["1104"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1107",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître, nommer, décrire, reproduire, représenter, construire quelques solides et figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Réaliser un programme de construction d'une figure plane.",
+        "knowledge_small": "Construire figure plane",
+        "example": "exemple : Construire avec le matériel adhéquat la figure ABCDE où ABCD est un carré de côté 4 cm et ADE un triangle isocèle en E où AE mesure 5 cm.",
+        "ancestors": [["1108"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1103",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître, nommer, décrire, reproduire, représenter, construire quelques solides et figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Reconnaître, nommer des figures complexes (assemblages de figures simples) : cube, pavé droit, prisme droit, pyramide, cylindre, cône, boule.",
+        "knowledge_small": "Nommer figures complexes",
+        "example": "exemple : La figure visible se compose d'un cube, d'un cône et de deux cylindres.",
+        "ancestors": [["1107"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1105",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître, nommer, décrire, reproduire, représenter, construire quelques solides et figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Décrire des figures complexes : côté, sommet, angle, diagonale, polygone, centre, rayon, diamètre, milieu, hauteur solide, face, arète.",
+        "knowledge_small": "Décrire figures complexes",
+        "example": "exemple : la figure complexe se compose d'un cercle et d'un carré. Pour le cercle, son rayon est de 2 cm et a pour centre le point A.",
+        "ancestors": [["1103"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1106",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître, nommer, décrire, reproduire, représenter, construire quelques solides et figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Reproduire, représenter, construire : des figures simples ou complexes (assemblages de figures simples) sous forme de maquettes ou de dessins ou à partir d'un patron (donné, dans le cas d'un prisme ou d'une pyramide, ou à construire dans le cas d'un pavé droit).",
+        "knowledge_small": "Maquette, dessin ou patron de figures simples/complexes",
+        "example": "",
+        "ancestors": [["1105"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1110",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître, nommer, décrire, reproduire, représenter, construire quelques solides et figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Réaliser une figure plane simple à l'aide d'un logiciel de géométrie dynamique.",
+        "knowledge_small": "Créer figure plane via un logiciel",
+        "example": "",
+        "ancestors": [["1107"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1109",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître, nommer, décrire, reproduire, représenter, construire quelques solides et figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Rédiger un programme de construction d'une figure plane.",
+        "knowledge_small": "Rédiger programme de construction figure plane",
+        "example": "exemple : Pour construire un triangle équilatéral de côté 5 cm, je trace le segment AB de longueur 5 cm avec la rêgle, puis avec le compas, ... .",
+        "ancestors": [["1110"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1111",
+        "zone": [
+            "Espace et géométrie",
+            "Reconnaître, nommer, décrire, reproduire, représenter, construire quelques solides et figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Réaliser une figure composée de figures simples à l'aide d'un logiciel de géométrie dynamique.",
+        "knowledge_small": "Créer figure plane composée via un logiciel",
+        "example": "",
+        "ancestors": [["1109"]]
+    },
+
+
+
+    {   "_": "####################################################################   FIGURES GEOMETRIQUES DE L ESPACE ######################################################################"},
+
+
+    {
+        "cycle": 4,
+        "uuid": "1248",
+        "zone": [
+            "Espace et géométrie",
+            "Représenter l'espace"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Reconnaître des solides (pavé droit, cube, prisme, cylindre, pyramide, cône, boule).",
+        "knowledge_small": "Reconnaître des solides",
+        "example": "",
+        "ancestors": []
+    },
+    {
+        "cycle": 4,
+        "uuid": "1250",
+        "zone": [
+            "Espace et géométrie",
+            "Représenter l'espace"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Construire et mettre en relation des représentations de ces solides (vues en perspective cavalière, de face, de dessus, sections planes, patrons, etc.).",
+        "knowledge_small": "Représentation de solides",
+        "example": "",
+        "ancestors": [["1248"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1249",
+        "zone": [
+            "Espace et géométrie",
+            "Représenter l'espace"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Construire et mettre en relation des représentations de ces solides (vues en perspective cavalière, de face, de dessus, sections planes, patrons, etc.).",
+        "knowledge_small": "Construction de solides",
+        "example": "",
+        "ancestors": [["1250"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1073",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Volumes et contenances"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Déterminer le volume d'un pavé droit en se rapportant à un dénombrement d'unités (cubes de taille adaptée) ",
+        "knowledge_small": "Volume pavé droit par dénombrement",
+        "example": "exemple : Sur la figure du pavé droit, j'arrive à placer 3x4x6 cubes ce côté 1 cm. Donc le volume est d'environ 72 cm^3.",
+        "ancestors": [["1249"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1074",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Volumes et contenances"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Déterminer le volume d'un pavé droit en utilisant une formule.",
+        "knowledge_small": "Calculer volume pavé droit avec formule",
+        "example": "exemple : Un pavé de côté 3, 4 et 6 cm a un volume de 3x4x6 = 72 cm^3.",
+        "ancestors": [["1073", "1179"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1237",
+        "zone": [],
+        "category": "Connaissances",
+        "knowledge": "Formes géométriques de l'espace",
+        "knowledge_small": "Formes géométriques de l'espace",
+        "example": "exemple : un cube, un pavé, une pyramide à base restangulaire.",
+        "ancestors": [["1105"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1235",
+        "zone": [
+            "Grandeurs et mesures",
+            "Calculer avec des grandeurs mesurables ; exprimer les résultats dans les unités adaptées"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Volume d'un prisme, d'une pyramide, d'un cylindre, d'un cône, d'une boule.",
+        "knowledge_small": "Volume prisme/pyramide/cylindre/cône/boule",
+        "example": "",
+        "ancestors": [["1074", "1237"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1089",
+        "zone": [
+            "Grandeurs et mesures",
+            "Résoudre des problèmes impliquant des grandeurs (géométriques, physiques, économiques) en utilisant des nombres entiers et des nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Formules ou non pour : le volume d'un cube, d'un pavé droit",
+        "knowledge_small": "Problèmes volume",
+        "example": "exemple : Un carton sous forme de pavé droit a une longueur de 8 mètres ,une largeur de 5 mètres et une hauteur de 2 mètres. Calculez le volume du carton.",
+        "ancestors": [["1074"]]
+    },
+
+
+
+    {   "_": "####################################################################   STATISTIQUES  ######################################################################"},
+
+
+
+    {
+        "cycle": 4,
+        "uuid": "1204",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser des notions élémentaires de probabilités"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Aborder les questions relatives au hasard à partir de problèmes simples.",
+        "knowledge_small": "Problèmes hasard",
+        "example": "",
+        "ancestors": []
+    },
+    {
+        "cycle": 4,
+        "uuid": "1194",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Interpréter, représenter et traiter des données"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Indicateur de dispersion : étendue.",
+        "knowledge_small": "Indicateur de dispersion : étendue",
+        "example": "",
+        "ancestors": [["1204"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1200",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Interpréter, représenter et traiter des données"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Calculer et interpréter l'indicateur de dispersion d'une série statistique.",
+        "knowledge_small": "Calculer/interpréter étendue",
+        "example": "",
+        "ancestors": [["1194"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1190",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Interpréter, représenter et traiter des données"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Effectifs.",
+        "knowledge_small": "Effectifs",
+        "example": "connaissance : En mathématiques, un effectif représente le nombre total d'individus ou d'éléments dans un ensemble donné.",
+        "ancestors": [["1204"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1191",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Interpréter, représenter et traiter des données"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Fréquences.",
+        "knowledge_small": "Fréquence",
+        "example": "connaissance : La fréquence d'une valeur est le quotient de l'effectif de cette valeur par l'effectif total",
+        "ancestors": [["1190"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1198",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Interpréter, représenter et traiter des données"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Calculer des effectifs, des fréquences.",
+        "knowledge_small": "Calculer effectifs, fréquences",
+        "example": "",
+        "ancestors": [["1191"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1192",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Interpréter, représenter et traiter des données"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Indicateurs de position : moyenne.",
+        "knowledge_small": "Indicateurs de position : moyenne",
+        "example": "",
+        "ancestors": [["1198"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1199",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Interpréter, représenter et traiter des données"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Calculer et interpréter des indicateurs de position (moyenne et médiane).",
+        "knowledge_small": "Calculer/interpréter Moyenne",
+        "example": "",
+        "ancestors": [["1192"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1193",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Interpréter, représenter et traiter des données"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Indicateurs de position : médiane.",
+        "knowledge_small": "Indicateurs de position : médiane",
+        "example": "",
+        "ancestors": [["1198"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1199bis",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Interpréter, représenter et traiter des données"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Calculer et interpréter des indicateurs de position (moyenne et médiane).",
+        "knowledge_small": "Calculer/interpréter Moyenne",
+        "example": "",
+        "ancestors": [["1193"]]
+    },
+
+
+
+    {   "_": "####################################################################   PROBABILITES  ######################################################################"},
+
+    {
+        "cycle": 4,
+        "uuid": "1202",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser des notions élémentaires de probabilités"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Notion de probabilité ; la probabilité d'un événement est comprise entre 0 et 1.",
+        "knowledge_small": "Probabilité (Notion)",
+        "example": "",
+        "ancestors": []
+    },
+    {
+        "cycle": 4,
+        "uuid": "1201",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser des notions élémentaires de probabilités"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Vocabulaire des probabilités.",
+        "knowledge_small": "probabilités (Vocabulaire)",
+        "example": "",
+        "ancestors": [["1202"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1203",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser des notions élémentaires de probabilités"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Probabilité d'événements certains, impossibles, contraires.",
+        "knowledge_small": "Probabilité événements certains/impossibles/contraires",
+        "example": "",
+        "ancestors": [["1201"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1207",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser des notions élémentaires de probabilités"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Faire le lien entre fréquence et probabilité.",
+        "knowledge_small": "Lien fréquence-probabilité",
+        "example": "",
+        "ancestors": [["1203", "1198"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1206",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser des notions élémentaires de probabilités"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Exprimer des probabilités sous diverses formes (décimale, fractionnaire, pourcentage).",
+        "knowledge_small": "Probabilités forme décimale/fractionnaire/pourcentage",
+        "example": "",
+        "ancestors": [["1201"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1206autre",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser des notions élémentaires de probabilités"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Calculer des probabilités dans des cas simples (par exemple évaluation des chances de gain dans un jeu).",
+        "knowledge_small": "Probabilités",
+        "example": "",
+        "ancestors": [["1201"]]
+    },
+
+
+
+
+    {   "_": "####################################################################   PERIMETRE  ######################################################################"},
+
+
+    {
+        "cycle": 3,
+        "uuid": "1061",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Longueur et périmètre"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Notion de longueur : cas particulier du périmètre.",
+        "knowledge_small": "Périmètre",
+        "example": "exemple : Calculer le périmètre d'un rectangle ayant une longueur de 10 mètres et une largeur de 5 mètres.",
+        "ancestors": [["1118"], ["___c1 ajouter connaitre les formes géométriques 2D ____"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1060",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Longueur et périmètre"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Comparer des périmètres avec ou sans recours à la mesure (par exemple en utilisant une ficelle, ou en reportant les longueurs des côtés d'un polygone sur un segment de droite avec un compas).",
+        "knowledge_small": "Comparer périmètres sans mesure",
+        "example": "exemple : La longueur du côté d'un carré est le même que le rayon d'un cercle. Lequel a le plus grand périmètre ?",
+        "ancestors": [["1061"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1062",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Longueur et périmètre"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Unités relatives aux longueurs : relations entre les unités de longueur et les unités de numération.",
+        "knowledge_small": "Relations unités de longueur/numération",
+        "example": "",
+        "ancestors": [["1061"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1063",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Longueur et périmètre"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Calculer le périmètre d'un polygone en ajoutant les longueurs de ses côtés.",
+        "knowledge_small": "Périmètre d'un polygone à la règle",
+        "example": "exemple : Via le polygone ABCD représenter sur une feuille, on mesure chacuns des côtés avec la règle puis on les additionne pour trouver le périmètre.",
+        "ancestors": [["1062"]]
+    },
+
+    {
+        "cycle": 3,
+        "uuid": "1059",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Longueur et périmètre"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Comparer des périmètres avec ou sans recours à la mesure (par exemple en utilisant une ficelle, ou en reportant les longueurs des côtés d'un polygone sur un segment de droite avec un compas).",
+        "knowledge_small": "Comparer périmètres avec mesure",
+        "example": "exemple : Deux carrés ont des côtés de longueurs différentes. Le premier carré a un côté de longueur 5cm, et le deuxième carré a un côté de longueur 8cm. Comparez les périmètres de ces deux carrés.",
+        "ancestors": [["1063"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1064",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Longueur et périmètre"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Calculer le périmètre d'un carré et d'un rectangle : Formule du périmètre d'un carré, d'un rectangle.",
+        "knowledge_small": "Formule périmètre carré/rectangle",
+        "example": "exemple : Un rectangle a pour longueur 3 et pour largeur 4. Son périmètre est ainsi de 2x3 + 2x4 = 14.",
+        "ancestors": [["1063", "1179"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1065",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Longueur et périmètre"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Calculer le périmètre d'un carré et d'un rectangle : Formule de la longueur d'un cercle.",
+        "knowledge_small": "Formule périmètre cercle",
+        "example": "exemple : Le périmètre d'un cercle se calcule avec son rayon noté r et vaut 2 x pi x r.",
+        "ancestors": [["1064"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1087",
+        "zone": [
+            "Grandeurs et mesures",
+            "Résoudre des problèmes impliquant des grandeurs (géométriques, physiques, économiques) en utilisant des nombres entiers et des nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Formules ou non pour : le périmètre d'un carré, d'un rectangle, la longueur d'un cercle ;",
+        "knowledge_small": "Problèmes périmètres",
+        "example": "exemple : Tony a un terrain rectangle de côté 60 et 50 mètres. Aura t'il suffisament avec 200 mètres de grillages pour faire le tour ?",
+        "ancestors": [["1065"]]
+    },
+
+
+    {   "_": "####################################################################   AIRE  ######################################################################"},
+
+    {
+        "cycle": 3,
+        "uuid": "1066",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Aires"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Comparer des surfaces selon leurs aires sans avoir recours à la mesure, par superposition ou par découpage et recollement.",
+        "knowledge_small": "Comparer manuellement surfaces",
+        "example": "exemple : En completant deux surfaces par des carrés, la première forme est contenue dans 10 carrés et la deuxième forme contient 11 carrés. Donc la deuxième forme a une surface plus grande que le première.",
+        "ancestors": []
+    },
+    {
+        "cycle": 3,
+        "uuid": "1073aire",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Aires"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Déterminer le volume d'un pavé droit en se rapportant à un dénombrement d'unités (cubes de taille adaptée) ",
+        "knowledge_small": "Aire d'une forme géométrique par dénombrement",
+        "example": "exemple : Sur la figure du rectangle, j'arrive à placer 3x4 carrés ce côté 1 cm. Donc le volume est d'environ 12 cm^2.",
+        "ancestors": [["1066"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1068",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Aires"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Estimer la mesure d'une aire et l'exprimer dans une unité adaptée.",
+        "knowledge_small": "Estimer l'aire et l'unité adaptée",
+        "example": "exemple : On souhaite mesurer la surface d'un village de 124 habitants, quelle unité d'aire serait la plus propice ?",
+        "ancestors": [["1073", "1069"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1234rect",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Aires"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Aire d'un rectangle'",
+        "knowledge_small": "Aire rectangle",
+        "example": "",
+        "ancestors": [["1068"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1234triangle",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Aires"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Aire d'un triangle'",
+        "knowledge_small": "Aire triangle",
+        "example": "",
+        "ancestors": [["1234rect", "1254"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1234",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Aires"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Aire du parallélogramme (obtenue à partir de celle du rectangle par découpage et recollement).",
+        "knowledge_small": "Aire parallélogramme",
+        "example": "",
+        "ancestors": [["1234rect"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1070",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Aires"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Déterminer la mesure de l'aire d'une surface à partir d'un pavage simple ou en utilisant une formule : Formules de l'aire d'un carré, d'un rectangle, d'un triangle, d'un disque.",
+        "knowledge_small": "Calculer l'aire d'un pavage simple",
+        "example": "exemple : Un terrain se compose d'un carré de côté 10m et d'un demi-cercle de rayon 5m. L'aire du terrain est ainsi de 10x10 + pix5².",
+        "ancestors": [["1234rect", "1234triangle", "1234"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1088",
+        "zone": [
+            "Grandeurs et mesures",
+            "Résoudre des problèmes impliquant des grandeurs (géométriques, physiques, économiques) en utilisant des nombres entiers et des nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Formules ou non pour : l'aire d'un carré, d'un rectangle, d'un triangle, d'un disque ;",
+        "knowledge_small": "Problèmes aire",
+        "example": "exemple : Un jardin rectangulaire a une longueur de 8 mètres et une largeur de 5 mètres. Calculez l'aire totale du jardin.",
+        "ancestors": [["1070"]]
+    },
+
+
+    {
+        "cycle": 3,
+        "uuid": "1067",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Aires"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Différencier périmètre et aire d'une figure.",
+        "knowledge_small": "Différentier périmètre et aire",
+        "example": "",
+        "ancestors": [["1234rect", "1064"]]
+    },
+
+
+    {   "_": "####################################################################   FONSTIONS ALGEBRIQUES  ######################################################################"},
+
+
+
+    {
+        "cycle": 4,
+        "uuid": "1219",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser la notion de fonction"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Vocabulaire : variable, fonction, antécédent, image.",
+        "knowledge_small": "Vocabulaire : variable, fonction, antécédent, image",
+        "example": "",
+        "ancestors": [["330"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1221",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser la notion de fonction"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Notations f(𝑥) et 𝑥 -> f(𝑥).",
+        "knowledge_small": "expression symbolique d'une fonction",
+        "example": "",
+        "ancestors": [["1219"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1225",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser la notion de fonction"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Déterminer, à partir d'un mode de représentation, l'image ou un antécédent d'un nombre par une fonction.",
+        "knowledge_small": "Déterminer image/antécédant algébriquement",
+        "example": "",
+        "ancestors": [["1221"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1220",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser la notion de fonction"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Différents modes de représentation d'une fonction (expression symbolique, tableau de valeurs, représentation graphique, programme de calcul).",
+        "knowledge_small": "Représentations d'une fonction",
+        "example": "",
+        "ancestors": [["1228", "1219"]]
+    },
+
+    {
+        "cycle": 4,
+        "uuid": "1222",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser la notion de fonction"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Fonction linéaire.",
+        "knowledge_small": "Fonction linéaire",
+        "example": "",
+        "ancestors": []
+    },
+    {
+        "cycle": 3,
+        "uuid": "1229ante",
+        "zone": [
+            "Grandeurs et mesures",
+            "Résoudre des problèmes impliquant des grandeurs (géométriques, physiques, économiques) en utilisant des nombres entiers et des nombres décimaux",
+            "Proportionnalité"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Identifier une situation de proportionnalité entre deux grandeurs à partir du sens de la situation. ",
+        "knowledge_small": "Identifier situation de proportionnalité",
+        "example": "connaissance : Une situation de proportionnalité arrive lorsque : rapport constant, graphique linéaire, égalité de rapports.",
+        "ancestors": [["1215", "1222"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1229",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser la notion de fonction"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Modéliser une situation de proportionnalité à l'aide d'une fonction linéaire.",
+        "knowledge_small": "Modéliser proportionnalité par une fonction linéaire",
+        "example": "",
+        "ancestors": [["1229ante"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1226",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser la notion de fonction"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Représenter graphiquement une fonction linéaire.",
+        "knowledge_small": "Représentation graphique fonction linéaire",
+        "example": "",
+        "ancestors": [["1222"]]
+    },
+
+
+    {
+        "cycle": 4,
+        "uuid": "1223",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser la notion de fonction"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Fonction affine.",
+        "knowledge_small": "Fonction affine",
+        "example": "",
+        "ancestors": [["1220"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1231",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser la notion de fonction"
+        ],
+        "category": "Compét ences associées",
+        "knowledge": "Représenter graphiquement une fonction affine.",
+        "knowledge_small": "Représentation graphique fonction affine",
+        "example": "",
+        "ancestors": [["1223"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1224",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser la notion de fonction"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Passer d'un mode de représentation d'une fonction à un autre.",
+        "knowledge_small": "Muter la représentation d'une fonction affine",
+        "example": "",
+        "ancestors": [["1231"]]
+    },
+
+    {
+        "cycle": 4,
+        "uuid": "1232",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Comprendre et utiliser la notion de fonction"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Résoudre des problèmes modélisés par des fonctions.",
+        "knowledge_small": "Problèmes modélisables par des fonctions",
+        "example": "",
+        "ancestors": [["1220"]]
+    },
+
+
+    {   "_": "####################################################################   PROPORTIONNALITE  ######################################################################"},
+
+
+    {
+        "cycle": 4,
+        "uuid": "1212",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Résoudre des problèmes de proportionnalité"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Reconnaître une situation de non-proportionnalité.",
+        "knowledge_small": "Reconnaître situation non-proportionnalité",
+        "example": "",
+        "ancestors": []
+    },
+    {
+        "cycle": 4,
+        "uuid": "1211",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Résoudre des problèmes de proportionnalité"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Reconnaître une situation de proportionnalité.",
+        "knowledge_small": "Reconnaitre situation proportionnalité",
+        "example": "",
+        "ancestors": []
+    },
+    {
+        "cycle": 3,
+        "uuid": "1056",
+        "zone": [
+            "Résoudre des problèmes en utilisant des fractions, des nombres décimaux et le calcul",
+            "Proportionnalité"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Reconnaître et résoudre des problèmes relevant de la proportionnalité en utilisant une procédure adaptée : propriétés de linéarité (additive et multiplicative), passage à l'unité, coefficient de proportionnalité.",
+        "knowledge_small": "Reconnaitre des problèmes de proportionnalité",
+        "example": "exemple : Une voiture parcourt 300 km en 4 heures à une vitesse constante. Dans ce cadre, la distance parcourue est proportionnelle au temps de parcours.",
+        "ancestors": [["1212", "1211"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1056post",
+        "zone": [
+            "Grandeurs et mesures",
+            "Résoudre des problèmes impliquant des grandeurs (géométriques, physiques, économiques) en utilisant des nombres entiers et des nombres décimaux",
+            "Proportionnalité"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Résoudre un problème de proportionnalité impliquant des grandeurs.",
+        "knowledge_small": "Résoudre problème de proportionnalité",
+        "example": "exemple : Un camion peut transporter 500 kg de marchandises. Combien de camions sont nécessaires pour transporter 2500 kg de marchandises ?",
+        "ancestors": [["1056"]]
+    },
+
+
+    {
+        "cycle": 4,
+        "uuid": "1213",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Résoudre des problèmes de proportionnalité"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Notion de ratio : trois nombres a, b, c sont dans le ratio 2 : 3 : 7 (notation standardisée) si a/2 = b/3 = c/7.",
+        "knowledge_small": "Ratio",
+        "example": "",
+        "ancestors": [["1211", "1182"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1214",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Résoudre des problèmes de proportionnalité"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Partager une quantité (par exemple une somme d'argent) en deux ou trois parts selon un ratio donné.",
+        "knowledge_small": "Partager quantité suivant un ratio",
+        "example": "exemple : Tony et Mageëlle doivent partager 3€ entre eux sachant que Tony a travaillé deux fois plus que Magaëlle. Comment répartir les 4 euros ?",
+        "ancestors": [["1213"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1217",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Résoudre des problèmes de proportionnalité"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Calculer une quatrième proportionnelle.",
+        "knowledge_small": "Quatrième proportionnelle",
+        "example": "",
+        "ancestors": [["1211"]]
+    },
+
+
+
+    {
+        "cycle": 4,
+        "uuid": "1209",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Résoudre des problèmes de proportionnalité"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Taux d'évolution, coefficient multiplicateur.",
+        "knowledge_small": "Proportionnalité (Taux d'évolution, coefficient multiplicateur)",
+        "example": "",
+        "ancestors": [["1211"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1156",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comprendre l'effet de quelques transformations sur les figures géométriques"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Utiliser l'échelle d'une carte.",
+        "knowledge_small": "Utiliser echelle d'une carte",
+        "example": "",
+        "ancestors": [["1209"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1218",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Résoudre des problèmes de proportionnalité"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Mettre en oeuvre les procédures d'application et de calcul d'un pourcentage ou d'une échelle",
+        "knowledge_small": "Appliquer pourcentage/échelle",
+        "example": "exemple : Si le prix initial d'un produit est 80 € et qu'il subit une réduction de 20 %, quel sera le nouveau prix ?",
+        "ancestors": [["1209"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1216",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Résoudre des problèmes de proportionnalité"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Résoudre des problèmes utilisant la proportionnalité (pourcentages, échelles, agrandissement réduction).",
+        "knowledge_small": "Problèmes de proportionnalité",
+        "example": "exemple : Une voiture parcourt 300 km en 4 heures à une vitesse constante. Si la vitesse reste constante, combien de kilomètres parcourra-t-elle en 6 heures ?",
+        "ancestors": [["1211"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1208",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Résoudre des problèmes de proportionnalité"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Coefficient de proportionnalité.",
+        "knowledge_small": "Proportionnalité (coefficient)",
+        "example": "",
+        "ancestors": [["1211"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1215",
+        "zone": [
+            "Organisation et gestion de données, fonctions",
+            "Résoudre des problèmes de proportionnalité"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Utiliser une formule liant deux grandeurs dans une situation de proportionnalité (par exemple la longueur d'un cercle en fonction de son rayon, la loi d'Ohm exprimant la tension en fonction de l'intensité, la distance parcourue en fonction du temps à vitesse constante, etc.).",
+        "knowledge_small": "Formule de proportionnalité entre deux grandeurs",
+        "example": "",
+        "ancestors": [["1208"]]
+    },
+
+
+
+    {   "_": "####################################################################   ALGORITHMIQUE  ######################################################################"},
+
+
+    {
+        "cycle": 3,
+        "uuid": "1095",
+        "zone": [
+            "Espace et géométrie",
+            "(Se) repérer et (se) déplacer dans l'espace en utilisant ou en élaborant des représentations"
+        ],
+        "category": "Connaissances",
+        "knowledge": "vocabulaire permettant de définir des positions et des déplacements (tourner à gauche, à droite ; faire demi-tour, effectuer un quart de tour à droite, à gauche) ;",
+        "knowledge_small": "Vocabulaire positions/déplacements",
+        "example": "connaissance : Position : Emplacement spécifique occupé par un objet, un point ou une personne par rapport à un système de référence. Déplacement : Changement de position d'un objet ou d'une personne d'un endroit à un autre dans un système de référence.",
+        "ancestors": []
+    },
+    {
+        "cycle": 3,
+        "uuid": "1096",
+        "zone": [
+            "Espace et géométrie",
+            "(Se) repérer et (se) déplacer dans l'espace en utilisant ou en élaborant des représentations"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Se repérer, décrire ou exécuter des déplacements, sur un plan ou sur une carte (école, quartier, ville, village).",
+        "knowledge_small": "Se repérer, décrire ou exécuter des déplacements, sur un plan ou sur une carte (école, quartier, ville, village)",
+        "example": "exemple : Indiquer sur une carte où se trouve un lieu dans lequel aller, le chemin à mettre en oeuvre et s'y rendre.",
+        "ancestors": [["1095"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1271",
+        "zone": [
+            "Algorithmique et programmation",
+            "Ecrire, mettre au point, exécuter un programme"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Notions d'algorithme et de programme.",
+        "knowledge_small": "Notions algorithme/programme",
+        "example": "",
+        "ancestors": [["1096"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1097",
+        "zone": [
+            "Espace et géométrie",
+            "(Se) repérer et (se) déplacer dans l'espace en utilisant ou en élaborant des représentations"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Accomplir, décrire, coder des déplacements dans des espaces familiers.",
+        "knowledge_small": "Accomplir, décrire, coder des déplacements dans des espaces familiers",
+        "example": "",
+        "ancestors": [["1271"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1098",
+        "zone": [
+            "Espace et géométrie",
+            "(Se) repérer et (se) déplacer dans l'espace en utilisant ou en élaborant des représentations"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Programmer les déplacements d'un robot ou ceux d'un personnage sur un écran en utilisant un logiciel de programmation.",
+        "knowledge_small": "Programmer déplacement algorithmique",
+        "example": "exemple : La destination se trouve 100 pas en avant, 200 pas vers la droite puis prendre à gauche jusqu'au feu pour arriver à destination.",
+        "ancestors": [["1097"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1272",
+        "zone": [
+            "Algorithmique et programmation",
+            "Ecrire, mettre au point, exécuter un programme"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Notion de variable informatique.",
+        "knowledge_small": "Variable informatique",
+        "example": "",
+        "ancestors": [["1172", "1098"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1273",
+        "zone": [
+            "Algorithmique et programmation",
+            "Ecrire, mettre au point, exécuter un programme"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Déclenchement d'une action par un événement.",
+        "knowledge_small": "Déclencher une action par un événement",
+        "example": "",
+        "ancestors": [["1272"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1274",
+        "zone": [
+            "Algorithmique et programmation",
+            "Ecrire, mettre au point, exécuter un programme"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Séquences d'instructions, boucles, instructions conditionnelles.",
+        "knowledge_small": "Séquences d'instructions, boucles, instructions conditionnelles",
+        "example": "",
+        "ancestors": [["1273"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1275",
+        "zone": [
+            "Algorithmique et programmation",
+            "Ecrire, mettre au point, exécuter un programme"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Ecrire, mettre au point (tester, corriger) et exécuter un programme en réponse à un problème donné.",
+        "knowledge_small": "Ecrire/tester/corriger/exécuter un programme en réponse à un problème donné",
+        "example": "",
+        "ancestors": [["1274"]]
+    },
+
+
+
+    {   "_": "####################################################################   CONVERSIONS - UNITES  ######################################################################"},
+
+
+
+    {
+        "cycle": 4,
+        "uuid": "563",
+        "zone": [
+            "Grandeurs et mesures",
+            "Calculer avec des grandeurs mesurables ; exprimer les résultats dans les unités adaptées"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Effectuer des conversions d'unités.",
+        "knowledge_small": "Conversions d'unités (mm, m, cm, dm, m, km, ...)",
+        "example": "",
+        "ancestors": [["121"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "560",
+        "zone": [
+            "Grandeurs et mesures",
+            "Résoudre des problèmes impliquant des grandeurs (géométriques, physiques, économiques) en utilisant des nombres entiers et des nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Calculer la durée écoulée entre deux instants donnés.",
+        "knowledge_small": "Convertion heures/minutes/secondes.",
+        "example": "exemple : Un train part de la gare à 8h45 et arrive à destination à 12h15. Combien de temps a duré le voyage ?",
+        "ancestors": [["1069", "563"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "564",
+        "zone": [
+            "Grandeurs et mesures",
+            "Calculer avec des grandeurs mesurables ; exprimer les résultats dans les unités adaptées"
+        ],
+        "category": "Connaissances",
+        "knowledge": "Notion de grandeur produit et de grandeur quotient.",
+        "knowledge_small": "Grandeur produit/quotient",
+        "example": "exemple : g/L, m²",
+        "ancestors": [["563", "36"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "1236",
+        "zone": [[
+            "Grandeurs et mesures",
+            "Calculer avec des grandeurs mesurables ; exprimer les résultats dans les unités adaptées"
+        ],
+        [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Volumes et contenances"
+        ]],
+        "category": "Connaissances",
+        "knowledge": "Correspondance entre unités de (cm3, dm3, m3) et de contenance (mL, dL, L, kL).",
+        "knowledge_small": "Correspondance unités volume/contenance",
+        "example": "exemple : 1 dm^3 = 1L ; 100 cm^3 = 1 dL",
+        "ancestors": [["1249", "564"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1069ante",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Aires"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Convertir les multiples et sous-multiples du m².",
+        "knowledge_small": "Convertir les multiples et sous-multiples du m² via un calcul",
+        "example": "exemple : 5 m² = 500 dm² ; 5 m² = 5x0.001² km² = 0.000 001 km²",
+        "ancestors": [["564"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "1069",
+        "zone": [
+            "Grandeurs et mesures",
+            "Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : longueur (périmètre), aire, volume, angle ;; Utiliser le lexique, les unités, les instruments de mesures spécifiques de ces grandeurs",
+            "Aires"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Convertir les multiples et sous-multiples du m².",
+        "knowledge_small": "Convertir les multiples et sous-multiples du m² via un calcul",
+        "example": "exemple : 5 m² = 500 dm² ; 5 m² = 5x0.001² km² = 0.000 001 km²",
+        "ancestors": [["1069ante"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "565",
+        "zone": [
+            "Grandeurs et mesures",
+            "Calculer avec des grandeurs mesurables ; exprimer les résultats dans les unités adaptées"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Mener des calculs impliquant des grandeurs mesurables, notamment des grandeurs composées, exprimer les résultats dans les unités adaptées.",
+        "knowledge_small": "Calculs avec des grandeurs mesurables composées",
+        "example": "exemple : Tony a travaillé 8 heures dans la journée et a collecté 80 brins de muguet. Combien de brins de muguets collecte t'il par heure ?",
+        "ancestors": [["564"]]
+    },
+
+
+
+
+
+    {
+        "cycle": 3,
+        "uuid": "566",
+        "zone": [
+            "Grandeurs et mesures",
+            "Résoudre des problèmes impliquant des grandeurs (géométriques, physiques, économiques) en utilisant des nombres entiers et des nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Résoudre des problèmes dont la résolution mobilise simultanément des unités différentes de mesure et/ou des conversions.",
+        "knowledge_small": "Problèmes ayant diverses unités",
+        "example": "exemple : Tony a une longueur de cheveux de 6 cm et maëlle de 6 dm. Quelle longueur de cheveux ont ils ensemble ?",
+        "ancestors": [["563"]]
+    },
+
+
+    {   "_": "####################################################################   Problèmes temporels  ######################################################################"},
+    {
+        "cycle": 3,
+        "uuid": "570",
+        "zone": [
+            "Grandeurs et mesures",
+            "Résoudre des problèmes impliquant des grandeurs (géométriques, physiques, économiques) en utilisant des nombres entiers et des nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Calculer la durée écoulée entre deux instants donnés.",
+        "knowledge_small": "Convertion heures/minutes/secondes.",
+        "example": "exemple : Un train part de la gare à 8h45 et arrive à destination à 12h15. Combien de temps a duré le voyage ?",
+        "ancestors": [["1069"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "561",
+        "zone": [
+            "Grandeurs et mesures",
+            "Résoudre des problèmes impliquant des grandeurs (géométriques, physiques, économiques) en utilisant des nombres entiers et des nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Déterminer à un instant : jour, semaine, heure, minute, seconde, dixième de seconde, mois, année, siècle, millénaire.",
+        "knowledge_small": "Problèmes moment instantanné",
+        "example": "exemple : Si un magasin ferme à 18h30 et il reste 45 minutes avant la fermeture, à quelle heure fermera-t-il ?",
+        "ancestors": []
+    },
+    {
+        "cycle": 3,
+        "uuid": "562",
+        "zone": [
+            "Grandeurs et mesures",
+            "Résoudre des problèmes impliquant des grandeurs (géométriques, physiques, économiques) en utilisant des nombres entiers et des nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Déterminer le temps d'un instant : jour, semaine, heure, minute, seconde, dixième de seconde, mois, année, siècle, millénaire.",
+        "knowledge_small": "Problèmes moment étalé",
+        "example": "exemple : Une entreprise a planifié un projet sur une durée de 6 mois, du 1er janvier au 30 juin. Combien de jours dure ce projet ?",
+        "ancestors": []
+    },
+
+
+
+    {"_":"##########################################     Compétences globales     ###################################################"},
+
+
+    {
+        "cycle": 4,
+        "uuid": "322 global",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Effectuer des comparaisons pour traiter des problèmes.",
+        "knowledge_small": "Problèmes de comparaison sur du calcul mental ou approché.",
+        "example" : "RQ : En utilisant la rêgle, je constate que le pain a une longueur de 4,5 cm alors la boite a une longueur de 4,7 cm. Or 4,5 < 4,7. Donc le pain peut ëtre rangé dans la boite.",
+        "ancestors" : [["110"], ["111"]]
+    },
+    {
+        "cycle": 3,
+        "uuid": "323 global",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul mental ou en ligne"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Vérifier la vraisemblance d’un résultat, notamment en estimant un ordre de grandeur.",
+        "knowledge_small": "Vraissemblance du résultat par l'ordre de grandeur",
+        "example" : "exemple : Tony va manger 7/3 de la tarte n'est pas vraissemblant car on s'attend à avoir une fraction comprise entre 0 et 1.",
+        "ancestors" : [["121"]]
+    },
+    {
+        "cycle": 4,
+        "uuid": "129 global",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Effectuer des calculs pour traiter des problèmes.",
+        "knowledge_small": "Problèmes demandants calculs",
+        "example" : "",
+        "ancestors" : []
+    },
+    {
+        "cycle": 3,
+        "uuid": "521",
+        "zone": [
+            "Grandeurs et mesures",
+            "Résoudre des problèmes impliquant des grandeurs (géométriques, physiques, économiques) en utilisant des nombres entiers et des nombres décimaux"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Résoudre des problèmes de comparaison avec et sans recours à la mesure.",
+        "knowledge_small": "Résoudre des problèmes de comparaison de grandeurs avec et sans recours à la mesure",
+        "example": "exemple : Vous avez un stylo et une règle. Quel est plus long, le stylo ou la règle ? En plaçant la règle sur la table, puis en plaçant la règle à côté de la ligne tracée, on peut voir que la règle est plus longue que le stylo.",
+        "ancestors": []
+    },
+    {
+        "cycle": 3,
+        "uuid": "1522",
+        "zone": [
+            "Espace et géométrie",
+            "(Se) repérer et (se) déplacer dans l'espace en utilisant ou en élaborant des représentations"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Accomplir, se repérer avec divers modes de représentation de l'espace : maquettes, plans, schémas.",
+        "knowledge_small": "Modes de représentation de l'espace",
+        "example": "exemple : Représenter un espace sous forme de maquette, plan ou schéma",
+        "ancestors": [["1098", "1120"]]
+    },
+
+    {
+        "cycle": 3,
+        "uuid": "351 global",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul instrumenté"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Utiliser une calculatrice pour trouver ou vérifier un résultat.",
+        "knowledge_small": "Vérifier avec la calculatrice",
+        "example": "",
+        "ancestors": []
+    },
+    {
+        "cycle": 3,
+        "uuid": "352 global",
+        "zone": [
+            "Résoudre des problèmes en utilisant des fractions, des nombres décimaux et le calcul"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Résoudre des problèmes mettant en jeu les quatre opérations : Problèmes à une ou plusieurs étapes relevant des structures additive et/ou multiplicative.",
+        "knowledge_small": "Problèmes à plusieurs étapes de calcul",
+        "example": "",
+        "ancestors": []
+    },
+    {
+        "cycle": 3,
+        "uuid": "353 global",
+        "zone": [
+            "Résoudre des problèmes en utilisant des fractions, des nombres décimaux et le calcul",
+            "Organisation et gestion de données"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Organiser des données issues d'autres enseignements (sciences et technologie, histoire et géographie, éducation physique et sportive, etc.) en vue de les traiter.",
+        "knowledge_small": "Organiser puis traiter des données issues d'autres enseignements",
+        "example": "",
+        "ancestors": []
+    },
+
+    {
+        "cycle": 4,
+        "uuid": "354 global",
+        "zone": [
+            "Grandeurs et mesures",
+            "Calculer avec des grandeurs mesurables ; exprimer les résultats dans les unités adaptées"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "Vérifier la cohérence des résultats du point de vue des unités.",
+        "knowledge_small": "Cohérence résultats/unités",
+        "example": "",
+        "ancestors": []
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {"_":"####   A ETUDIER   #####"},
+
+
+    {   "_" : "ETUDE D AJOUT DE L EXTENSION ' Utiliser diverses représentations d’un même nombre'",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser les nombres pour comparer, calculer et résoudre des problèmes",
+            "Nombres",
+            "Utiliser diverses représentations d’un même nombre"
+        ],
+        "knowledge": "Changer la représentation d'un nombre (écriture décimale ou fractionnaire, notation scientifique, repérage sur une droite graduée)."
+    },
+    {    "_": "Serait elle à ajouter (légèrement complémentaire de la 320",
+        "knowledge_small": "Sens des quatre opérations sans parenthèses"
+    },
+    {   "_" : "Serait ce à ajouter 'Sens des quatre opérations avec parenthèses'",
+        "cycle": 3,
+        "uuid": "uuid",
+        "zone": [
+            "Nombres et calculs"
+        ],
+        "category": "Compétences associées",
+        "knowledge": "",
+        "knowledge_small": "Sens des quatre opérations avec parenthèses",
+        "example" : "",
+        "ancestors" : []
+    },
+
+    {   "_" : "ETUDE D AJOUT DE L EXTENSION 'Stratégies et procédures de calcul'",
+        "zone": [
+            "Nombres et calculs",
+            "Calculer avec des nombres entiers et des nombres décimaux",
+            "Calcul mental ou en ligne",
+            "_____Stratégies et procédures de calcul_____"
+        ],
+        "knowledge": "Elaborer et mettre en œuvre des stratégies de calcul avec les procédures de calculs.",
+        "knowledge_small": "Stratégies et procédures de calcul"
+    },
+    {   "_" : "ETUDE D AJOUT D EXTENSION 'Règles de calculs sur les fractions'",
+        "zone": [
+            "Nombres et calculs",
+            "Utiliser le calcul littéral",
+            "______Règles de calculs sur les fractions_____"
+        ],
+        "knowledge": "les règles de calcul sur les nombres relatifs et les fractions, notamment la condition d’égalité de deux fractions (si ad = bc, alors a/b = c/d et réciproquement) ;",
+        "knowledge_small": "Règles de calculs sur les fractions"
+    },
+    {
+        "cycle": 4,
+        "uuid": "125",
+        "zone": [
+            "Algorithmique et programmation",
+            "Écrire, mettre au point, exécuter un programme"
+        ],
+        "category": "",
+        "knowledge": "",
+        "knowledge_small": "algorithme et boucles",
+        "example" : "",
+        "ancestors" : []
+    }
+
+    ]
