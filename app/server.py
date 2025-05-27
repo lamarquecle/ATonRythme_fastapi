@@ -1,3 +1,17 @@
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def root():
+    return {"message": "Bienvenue sur FastAPI via Cloud Run!"}
+
+@app.get("/ping")
+def ping():
+    return {"pong": True}
+
+
+'''
 """API ON SERVER TO USE DATABASE AND USER CONNEXION"""
 from datetime               import datetime, timedelta
 from typing                 import Annotated, Union, List
@@ -493,3 +507,4 @@ async def db_have_permit_evals( uuid,
 #    response = client.get("/users/me/items")
 #    assert response.status_code == 200, response.text
 #    assert response.json() == {"msg": "Create an account first"}
+'''
