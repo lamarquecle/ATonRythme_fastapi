@@ -22,16 +22,6 @@ from fastapi.testclient     import TestClient
 
 app = FastAPI()
 
-@app.get("/")
-def root():
-    return {"message": "Bienvenue sur FastAPI via Cloud Run!"}
-
-@app.get("/ping")
-def ping():
-    return {"pong": True}
-
-
-'''
 """API ON SERVER TO USE DATABASE AND USER CONNEXION"""
 
 
@@ -72,7 +62,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30
 @app.get("/")
 async def hello():
     return "API IS FUNCTIONAL"
-
+'''
 ##################
 ##  API access  ##
 ##################
