@@ -29,7 +29,7 @@ def ping():
     return {"pong": True}
 
 
-
+'''
 """API ON SERVER TO USE DATABASE AND USER CONNEXION"""
 
 
@@ -507,4 +507,4 @@ async def db_have_permit_evals( uuid,
 #    response = client.get("/users/me/items")
 #    assert response.status_code == 200, response.text
 #    assert response.json() == {"msg": "Create an account first"}
-
+'''
