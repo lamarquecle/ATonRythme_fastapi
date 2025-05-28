@@ -2,10 +2,11 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY requirements.txt .
+COPY ../fastapi/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY ./app ./app
+COPY ../fastapi ./app
+COPY ../datas   ./app/datas
 
 EXPOSE 8080
 
