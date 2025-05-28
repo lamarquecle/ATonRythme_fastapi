@@ -11,14 +11,3 @@ python-multipart==0.0.5
 aiofiles==0.4.0
 requests
 tap2junit==0.1.6 # for test_anything_protocols
-
-#fastapi==0.100.1
-#python-jose==3.3.0
-#passlib==1.7.4
-#pillow==9.0.1
-#torch==1.7.1+cpu
-#torchvision==0.8.2+cpu
-#python-multipart==0.0.5
-#aiofiles==0.4.0
-#requests
-#tap2junit==0.1.6 # for test_anything_protocols
