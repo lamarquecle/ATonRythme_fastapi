@@ -1,4 +1,4 @@
-import fastapi
+from fastapi import FastAPI
 '''
 from datetime               import datetime, timedelta
 from typing                 import Annotated, Union, List
