@@ -1,18 +1,3 @@
-from fastapi import FastAPI
-
-app = FastAPI()
-
-@app.get("/")
-def root():
-    return {"message": "Bienvenue sur FastAPI via Cloud Run!"}
-
-@app.get("/ping")
-def ping():
-    return {"pong": True}
-
-
-'''
-"""API ON SERVER TO USE DATABASE AND USER CONNEXION"""
 from datetime               import datetime, timedelta
 from typing                 import Annotated, Union, List
 
@@ -32,6 +17,21 @@ from fastapi.security       import (OAuth2PasswordBearer,
                                     OAuth2PasswordRequestForm)
 
 from fastapi.testclient     import TestClient
+
+app = FastAPI()
+
+@app.get("/")
+def root():
+    return {"message": "Bienvenue sur FastAPI via Cloud Run!"}
+
+@app.get("/ping")
+def ping():
+    return {"pong": True}
+
+
+'''
+"""API ON SERVER TO USE DATABASE AND USER CONNEXION"""
+
 
 
 DESCRIPTION = "🚀 Obtain semantic segmentation maps of the image " \
