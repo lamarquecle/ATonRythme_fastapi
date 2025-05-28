@@ -62,7 +62,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30
 @app.get("/")
 async def hello():
     return "API IS FUNCTIONAL"
-'''
+
 ##################
 ##  API access  ##
 ##################
@@ -172,7 +172,7 @@ async def login_for_access_token(form_data: Annotated[OAuth2PasswordRequestForm,
             "token_type"   : "bearer"}
         # NB : https://jwt.io/ if you want decode "access_token"
 
-
+'''
 ################
 ## USER DATAS ##
 ################
