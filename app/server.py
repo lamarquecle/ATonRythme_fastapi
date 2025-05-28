@@ -30,8 +30,8 @@ DESCRIPTION = "🚀 Obtain semantic segmentation maps of the image " \
             + "in input via DeepLabV3 implemented in PyTorch. "     \
             + "Visit this URL at port 8501 for the streamlit interface."
 
-PATH_DB_USERS    : str = "../datas/etablissement_people.json"
-PATH_EVALUATIONS : str = "../datas/etablissement_evaluations.json"
+PATH_DB_USERS    : str = "datas/etablissement_people.json"
+PATH_EVALUATIONS : str = "datas/etablissement_evaluations.json"
 
 
 
