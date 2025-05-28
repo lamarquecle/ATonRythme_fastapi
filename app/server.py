@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-'''
+
 from datetime               import datetime, timedelta
 from typing                 import Annotated, Union, List
 
@@ -19,7 +19,7 @@ from fastapi.security       import (OAuth2PasswordBearer,
                                     OAuth2PasswordRequestForm)
 
 from fastapi.testclient     import TestClient
-'''
+
 app = FastAPI()
 
 @app.get("/")
