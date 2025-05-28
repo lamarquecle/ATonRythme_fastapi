@@ -29,7 +29,7 @@ def ping():
     return {"pong": True}
 
 
-'''
+
 """API ON SERVER TO USE DATABASE AND USER CONNEXION"""
 
 
@@ -180,7 +180,7 @@ async def login_for_access_token(form_data: Annotated[OAuth2PasswordRequestForm,
             "token_type"   : "bearer"}
         # NB : https://jwt.io/ if you want decode "access_token"
 
-
+'''
 ################
 ## USER DATAS ##
 ################
