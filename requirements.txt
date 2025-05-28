@@ -5,8 +5,8 @@ uvicorn[standard]==0.29.0
 python-jose==3.3.0
 passlib==1.7.4
 pillow==9.0.1
-torch==2.7.0
-torchvision==0.22.0
+torch==2.2.0
+torchvision==0.17.2
 python-multipart==0.0.5
 aiofiles==0.4.0
 requests
