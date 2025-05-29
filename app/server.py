@@ -61,7 +61,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
 @app.get("/")
 async def hello():
-    return "API IS FUNCTIONAL"
+    return "API IS FUNCTIONAL WITH GOOGLE CLOUD BUILD"
 
 ##################
 ##  API access  ##
