@@ -62,7 +62,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30
 @app.get("/")
 async def hello():
     return "API IS FUNCTIONAL"
-
+'''
 ##################
 ##  API access  ##
 ##################
