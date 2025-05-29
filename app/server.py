@@ -61,37 +61,8 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
 @app.get("/")
 async def hello():
-    import os
+    return "API IS FUNCTIONAL"
 
-    chemin_courant = os.getcwd()
-    chemin_parent  = os.path.dirname(chemin_courant)
-    chemin_app     = os.path.join(chemin_courant, "app")
-
-    output = {
-        "dossier_courant": [],
-        "dossier_parent": [],
-        "dossier_app": []
-    }
-    # Contenu du dossier courant
-    for item in os.listdir(chemin_courant):
-        output["dossier_courant"].append(item)
-
-    # Contenu du dossier parent
-    for item in os.listdir(chemin_parent):
-        output["dossier_parent"].append(item)
-
-    # Contenu du fichier ou dossier "app"
-    if os.path.exists(chemin_app):
-        if os.path.isdir(chemin_app):
-            for item in os.listdir(chemin_app):
-                output["dossier_app"].append(item)
-        elif os.path.isfile(chemin_app):
-            output["dossier_app"].append(chemin_app)
-    else:
-        print("\nAucun fichier ou dossier nommé 'app' trouvé dans le dossier courant.")
-
-    return output
-'''
 ##################
 ##  API access  ##
 ##################
@@ -201,7 +172,7 @@ async def login_for_access_token(form_data: Annotated[OAuth2PasswordRequestForm,
             "token_type"   : "bearer"}
         # NB : https://jwt.io/ if you want decode "access_token"
 
-
+'''
 ################
 ## USER DATAS ##
 ################
