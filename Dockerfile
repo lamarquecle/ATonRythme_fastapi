@@ -2,11 +2,11 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY ../fastapi/requirements.txt ../app
+COPY requirements.txt ../app
 RUN pip install --no-cache-dir -r ../app/requirements.txt
 
-COPY ../fastapi/app ../app/app
-COPY ../fastapi/datas ../app/datas
+COPY ./app ../app/app
+COPY ./datas ../app/datas
 
 EXPOSE 8080
 
